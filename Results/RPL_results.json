@@ -1,0 +1,3456 @@
+[
+  {
+    "id": 92302,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.649285,
+      "latency": 516482.0,
+      "energy": 2944.57
+    }
+  },
+  {
+    "id": 92303,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.662194,
+      "latency": 522067.0,
+      "energy": 2885.4
+    }
+  },
+  {
+    "id": 92304,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.66332,
+      "latency": 515622.0,
+      "energy": 2880.81
+    }
+  },
+  {
+    "id": 92305,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.698657,
+      "latency": 543928.0,
+      "energy": 2880.16
+    }
+  },
+  {
+    "id": 92306,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.695434,
+      "latency": 538048.0,
+      "energy": 2942.88
+    }
+  },
+  {
+    "id": 92307,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.714039,
+      "latency": 492426.0,
+      "energy": 2886.3
+    }
+  },
+  {
+    "id": 92308,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.710938,
+      "latency": 520523.0,
+      "energy": 2880.19
+    }
+  },
+  {
+    "id": 92309,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.706473,
+      "latency": 519403.0,
+      "energy": 2879.19
+    }
+  },
+  {
+    "id": 92310,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.658494,
+      "latency": 565094.0,
+      "energy": 2945.06
+    }
+  },
+  {
+    "id": 92311,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.324058,
+      "latency": 526842.0,
+      "energy": 2920.33
+    }
+  },
+  {
+    "id": 92312,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.711578,
+      "latency": 514806.0,
+      "energy": 2878.48
+    }
+  },
+  {
+    "id": 92313,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.700893,
+      "latency": 528085.0,
+      "energy": 2880.1
+    }
+  },
+  {
+    "id": 92314,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.932705,
+      "latency": 539299.0,
+      "energy": 2930.98
+    }
+  },
+  {
+    "id": 92315,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.906904,
+      "latency": 490987.0,
+      "energy": 2871.43
+    }
+  },
+  {
+    "id": 92316,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.88577,
+      "latency": 780940.0,
+      "energy": 2900.22
+    }
+  },
+  {
+    "id": 92317,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.83817,
+      "latency": 819477.0,
+      "energy": 2896.52
+    }
+  },
+  {
+    "id": 92318,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.883097,
+      "latency": 589126.0,
+      "energy": 2942.66
+    }
+  },
+  {
+    "id": 92319,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.936105,
+      "latency": 821658.0,
+      "energy": 2899.52
+    }
+  },
+  {
+    "id": 92320,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.923072,
+      "latency": 759986.0,
+      "energy": 2894.02
+    }
+  },
+  {
+    "id": 92321,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.875413,
+      "latency": 568854.0,
+      "energy": 2885.19
+    }
+  },
+  {
+    "id": 92322,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.782755,
+      "latency": 538666.0,
+      "energy": 2937.33
+    }
+  },
+  {
+    "id": 92323,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.922852,
+      "latency": 504297.0,
+      "energy": 2883.79
+    }
+  },
+  {
+    "id": 92324,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.810218,
+      "latency": 972774.0,
+      "energy": 2891.45
+    }
+  },
+  {
+    "id": 92325,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.691533,
+      "latency": 1246110.0,
+      "energy": 2892.19
+    }
+  },
+  {
+    "id": 92326,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.777463,
+      "latency": 872818.0,
+      "energy": 2951.83
+    }
+  },
+  {
+    "id": 92327,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.846001,
+      "latency": 721314.0,
+      "energy": 2910.16
+    }
+  },
+  {
+    "id": 92328,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.76554,
+      "latency": 662997.0,
+      "energy": 2892.23
+    }
+  },
+  {
+    "id": 92329,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.680398,
+      "latency": 1116620.0,
+      "energy": 2898.47
+    }
+  },
+  {
+    "id": 92330,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.844243,
+      "latency": 620911.0,
+      "energy": 2940.05
+    }
+  },
+  {
+    "id": 92331,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.844303,
+      "latency": 874712.0,
+      "energy": 2900.58
+    }
+  },
+  {
+    "id": 92332,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.942089,
+      "latency": 573782.0,
+      "energy": 2880.68
+    }
+  },
+  {
+    "id": 92333,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.714286,
+      "latency": 913085.0,
+      "energy": 2891.15
+    }
+  },
+  {
+    "id": 92334,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.84315,
+      "latency": 580469.0,
+      "energy": 2934.69
+    }
+  },
+  {
+    "id": 92335,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.927465,
+      "latency": 613323.0,
+      "energy": 2886.17
+    }
+  },
+  {
+    "id": 92336,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.909528,
+      "latency": 627848.0,
+      "energy": 2880.7
+    }
+  },
+  {
+    "id": 92337,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.897321,
+      "latency": 484711.0,
+      "energy": 2871.87
+    }
+  },
+  {
+    "id": 92338,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.321771,
+      "latency": 1033430.0,
+      "energy": 2980.56
+    }
+  },
+  {
+    "id": 92339,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.414959,
+      "latency": 772296.0,
+      "energy": 2931.68
+    }
+  },
+  {
+    "id": 92340,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.384925,
+      "latency": 850030.0,
+      "energy": 2970.2
+    }
+  },
+  {
+    "id": 92341,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.370536,
+      "latency": 1473720.0,
+      "energy": 2909.13
+    }
+  },
+  {
+    "id": 92342,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.491066,
+      "latency": 766801.0,
+      "energy": 2967.76
+    }
+  },
+  {
+    "id": 92343,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.645897,
+      "latency": 509422.0,
+      "energy": 2887.25
+    }
+  },
+  {
+    "id": 92344,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.621923,
+      "latency": 553922.0,
+      "energy": 2885.9
+    }
+  },
+  {
+    "id": 92345,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.640625,
+      "latency": 779552.0,
+      "energy": 2893.84
+    }
+  },
+  {
+    "id": 92346,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.608867,
+      "latency": 502077.0,
+      "energy": 2948.34
+    }
+  },
+  {
+    "id": 92347,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.687401,
+      "latency": 532946.0,
+      "energy": 2892.0
+    }
+  },
+  {
+    "id": 92348,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.677764,
+      "latency": 493469.0,
+      "energy": 2886.72
+    }
+  },
+  {
+    "id": 92349,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.671489,
+      "latency": 523177.0,
+      "energy": 2882.55
+    }
+  },
+  {
+    "id": 92350,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.798342,
+      "latency": 602783.0,
+      "energy": 2943.45
+    }
+  },
+  {
+    "id": 92351,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.826276,
+      "latency": 512657.0,
+      "energy": 2895.55
+    }
+  },
+  {
+    "id": 92352,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.780256,
+      "latency": 1168950.0,
+      "energy": 2916.59
+    }
+  },
+  {
+    "id": 92353,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.789062,
+      "latency": 777764.0,
+      "energy": 2895.95
+    }
+  },
+  {
+    "id": 92354,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.811775,
+      "latency": 617522.0,
+      "energy": 2939.62
+    }
+  },
+  {
+    "id": 92355,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.889432,
+      "latency": 540873.0,
+      "energy": 2893.03
+    }
+  },
+  {
+    "id": 92356,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.853468,
+      "latency": 692568.0,
+      "energy": 2886.76
+    }
+  },
+  {
+    "id": 92357,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.896089,
+      "latency": 588941.0,
+      "energy": 2885.09
+    }
+  },
+   {
+    "id": 92358,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.865619,
+      "latency": 531378.5,
+      "energy": 2925.08
+    }
+  },
+  {
+    "id": 92359,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.844129,
+      "latency": 537325.0,
+      "energy": 2886.1
+    }
+  },
+  {
+    "id": 92360,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.88931,
+      "latency": 492854.0,
+      "energy": 2875.93
+    }
+  },
+  {
+    "id": 92361,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.866365,
+      "latency": 517860.0,
+      "energy": 2877.5
+    }
+  },
+  {
+    "id": 92362,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.813138,
+      "latency": 707982.0,
+      "energy": 2938.09
+    }
+  },
+  {
+    "id": 92363,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.832764,
+      "latency": 759402.0,
+      "energy": 2912.03
+    }
+  },
+  {
+    "id": 92364,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.890864,
+      "latency": 715776.0,
+      "energy": 2884.39
+    }
+  },
+  {
+    "id": 92365,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.836689,
+      "latency": 524808.0,
+      "energy": 2879.21
+    }
+  },
+  {
+    "id": 92366,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.844303,
+      "latency": 544685.0,
+      "energy": 2931.98
+    }
+  },
+  {
+    "id": 92367,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.934854,
+      "latency": 536321.0,
+      "energy": 2877.97
+    }
+  },
+  {
+    "id": 92368,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.926706,
+      "latency": 492330.0,
+      "energy": 2879.62
+    }
+  },
+  {
+    "id": 92369,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.859684,
+      "latency": 571469.0,
+      "energy": 2880.45
+    }
+  },
+  {
+    "id": 92370,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.817315,
+      "latency": 578274.0,
+      "energy": 2941.81
+    }
+  },
+  {
+    "id": 92371,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.868941,
+      "latency": 507024.0,
+      "energy": 2882.33
+    }
+  },
+  {
+    "id": 92372,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.885991,
+      "latency": 501256.0,
+      "energy": 2872.6
+    }
+  },
+  {
+    "id": 92373,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.892857,
+      "latency": 514930.0,
+      "energy": 2869.18
+    }
+  },
+  {
+    "id": 92374,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.495162,
+      "latency": 1149320.0,
+      "energy": 2967.57
+    }
+  },
+  {
+    "id": 92375,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.460208,
+      "latency": 1962410.0,
+      "energy": 2936.24
+    }
+  },
+  {
+    "id": 92376,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.507768,
+      "latency": 1880840.0,
+      "energy": 2929.48
+    }
+  },
+  {
+    "id": 92377,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.626936,
+      "latency": 768589.0,
+      "energy": 2903.01
+    }
+  },
+  {
+    "id": 92378,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.416534,
+      "latency": 2249070.0,
+      "energy": 2975.34
+    }
+  },
+  {
+    "id": 92379,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.704719,
+      "latency": 498051.0,
+      "energy": 2885.7
+    }
+  },
+  {
+    "id": 92380,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.694431,
+      "latency": 538216.0,
+      "energy": 2882.63
+    }
+  },
+  {
+    "id": 92381,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.706142,
+      "latency": 558029.0,
+      "energy": 2883.27
+    }
+  },
+  {
+    "id": 92382,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.61818,
+      "latency": 515523.0,
+      "energy": 2954.06
+    }
+  },
+  {
+    "id": 92383,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.653462,
+      "latency": 672149.0,
+      "energy": 2907.13
+    }
+  },
+  {
+    "id": 92384,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.359272,
+      "latency": 667082.0,
+      "energy": 2911.24
+    }
+  },
+  {
+    "id": 92385,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.391739,
+      "latency": 626070.0,
+      "energy": 2903.45
+    }
+  },
+  {
+    "id": 92386,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.808056,
+      "latency": 684784.0,
+      "energy": 2946.27
+    }
+  },
+  {
+    "id": 92387,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.801785,
+      "latency": 1088300.0,
+      "energy": 2927.9
+    }
+  },
+  {
+    "id": 92388,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.787762,
+      "latency": 1010100.0,
+      "energy": 2922.67
+    }
+  },
+  {
+    "id": 92389,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.892857,
+      "latency": 585613.0,
+      "energy": 2891.4
+    }
+  },
+  {
+    "id": 92390,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.841144,
+      "latency": 650414.0,
+      "energy": 2936.53
+    }
+  },
+  {
+    "id": 92391,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.932665,
+      "latency": 667175.0,
+      "energy": 2894.48
+    }
+  },
+  {
+    "id": 92392,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.923964,
+      "latency": 655698.0,
+      "energy": 2889.59
+    }
+  },
+  {
+    "id": 92393,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.938748,
+      "latency": 541493.0,
+      "energy": 2879.87
+    }
+  },
+  {
+    "id": 92394,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.842944,
+      "latency": 510667.0,
+      "energy": 2936.06
+    }
+  },
+  {
+    "id": 92395,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.936105,
+      "latency": 609947.0,
+      "energy": 2891.05
+    }
+  },
+  {
+    "id": 92396,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.883423,
+      "latency": 594267.0,
+      "energy": 2885.82
+    }
+  },
+  {
+    "id": 92397,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.914062,
+      "latency": 505030.0,
+      "energy": 2874.01
+    }
+  },
+  {
+    "id": 92398,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.81552,
+      "latency": 933854.0,
+      "energy": 2955.48
+    }
+  },
+  {
+    "id": 92399,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.901059,
+      "latency": 640371.0,
+      "energy": 2903.14
+    }
+  },
+  {
+    "id": 92400,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.841426,
+      "latency": 921405.0,
+      "energy": 2911.26
+    }
+  },
+  {
+    "id": 92401,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.766392,
+      "latency": 1062710.0,
+      "energy": 2901.86
+    }
+  },
+  {
+    "id": 92402,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.807301,
+      "latency": 680264.0,
+      "energy": 2940.13
+    }
+  },
+  {
+    "id": 92403,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.851216,
+      "latency": 772668.0,
+      "energy": 2902.98
+    }
+  },
+  {
+    "id": 92404,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.812261,
+      "latency": 1276800.0,
+      "energy": 2913.38
+    }
+  },
+  {
+    "id": 92405,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.895089,
+      "latency": 573558.0,
+      "energy": 2886.52
+    }
+  },
+  {
+    "id": 92406,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.843331,
+      "latency": 519623.0,
+      "energy": 2928.98
+    }
+  },
+  {
+    "id": 92407,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.928576,
+      "latency": 497416.0,
+      "energy": 2881.42
+    }
+  },
+  {
+    "id": 92408,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.935656,
+      "latency": 534940.0,
+      "energy": 2872.08
+    }
+  },
+  {
+    "id": 92409,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.906833,
+      "latency": 539135.0,
+      "energy": 2874.64
+    }
+  },
+  {
+    "id": 92453,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.639392,
+      "latency": 749833.0,
+      "energy": 2961.15
+    }
+  },
+  {
+    "id": 92454,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.689304,
+      "latency": 529344.0,
+      "energy": 2890.87
+    }
+  },
+  {
+    "id": 92455,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.613988,
+      "latency": 786336.0,
+      "energy": 2906.93
+    }
+  },
+  {
+    "id": 92456,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.640625,
+      "latency": 700336.0,
+      "energy": 2894.77
+    }
+  },
+  {
+    "id": 92457,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.687057,
+      "latency": 470989.0,
+      "energy": 2944.51
+    }
+  },
+  {
+    "id": 92458,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.694635,
+      "latency": 536011.0,
+      "energy": 2889.93
+    }
+  },
+  {
+    "id": 92459,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.701556,
+      "latency": 509227.0,
+      "energy": 2886.52
+    }
+  },
+  {
+    "id": 92460,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.690848,
+      "latency": 527911.0,
+      "energy": 2882.66
+    }
+  },
+  {
+    "id": 92461,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.64202,
+      "latency": 535731.0,
+      "energy": 2947.49
+    }
+  },
+  {
+    "id": 92462,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.69605,
+      "latency": 501434.0,
+      "energy": 2892.16
+    }
+  },{
+    "id": 92463,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN":12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.636461,
+      "latency": 542916.8,
+      "energy": 2888.382
+    }
+  },
+  {
+    "id": 92464,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.697648,
+      "latency": 544874.0,
+      "energy": 2886.17
+    }
+  },
+  {
+    "id": 92465,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.929366,
+      "latency": 481516.0,
+      "energy": 2931.24
+    }
+  },
+  {
+    "id": 92466,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.952367,
+      "latency": 527752.0,
+      "energy": 2878.16
+    }
+  },
+  {
+    "id": 92467,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.970056,
+      "latency": 488850.0,
+      "energy": 2868.87
+    }
+  },
+  {
+    "id": 92468,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.663694,
+      "latency": 1460700.0,
+      "energy": 2893.37
+    }
+  },
+  {
+    "id": 92469,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.916943,
+      "latency": 499757.0,
+      "energy": 2931.62
+    }
+  },
+  {
+    "id": 92470,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.968914,
+      "latency": 485731.0,
+      "energy": 2870.57
+    }
+  },
+  {
+    "id": 92471,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.963396,
+      "latency": 489429.0,
+      "energy": 2868.0
+    }
+  },
+  {
+    "id": 92472,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.960938,
+      "latency": 504401.0,
+      "energy": 2869.9
+    }
+  },
+  {
+    "id": 92473,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.900879,
+      "latency": 515192.0,
+      "energy": 2929.48
+    }
+  },
+  {
+    "id": 92474,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.956857,
+      "latency": 472570.0,
+      "energy": 2872.23
+    }
+  },
+  {
+    "id": 92475,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.96555,
+      "latency": 474503.0,
+      "energy": 2868.51
+    }
+  },
+  {
+    "id": 92476,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.95419,
+      "latency": 495530.0,
+      "energy": 2869.04
+    }
+  },
+  {
+    "id": 92477,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.934712,
+      "latency": 503542.0,
+      "energy": 2934.71
+    }
+  },
+  {
+    "id": 92478,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.956944,
+      "latency": 504590.0,
+      "energy": 2871.97
+    }
+  },
+  {
+    "id": 92479,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.953125,
+      "latency": 491755.0,
+      "energy": 2868.17
+    }
+  },
+  {
+    "id": 92480,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.950838,
+      "latency": 500431.0,
+      "energy": 2875.63
+    }
+  },
+  {
+    "id": 92481,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.920654,
+      "latency": 523738.0,
+      "energy": 2931.13
+    }
+  },
+  {
+    "id": 92482,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.967835,
+      "latency": 501301.0,
+      "energy": 2874.59
+    }
+  },
+  {
+    "id": 92483,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.982183,
+      "latency": 464757.0,
+      "energy": 2867.12
+    }
+  },
+  {
+    "id": 92484,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.971042,
+      "latency": 484220.0,
+      "energy": 2868.23
+    }
+  },
+  {
+    "id": 92485,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.919465,
+      "latency": 474887.0,
+      "energy": 2930.71
+    }
+  },
+  {
+    "id": 92486,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.96018,
+      "latency": 490974.0,
+      "energy": 2873.12
+    }
+  },
+  {
+    "id": 92487,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.973269,
+      "latency": 492944.0,
+      "energy": 2869.83
+    }
+  },
+  {
+    "id": 92488,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.968815,
+      "latency": 478876.0,
+      "energy": 2867.85
+    }
+  },
+  {
+    "id": 92489,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.678591,
+      "latency": 546404.0,
+      "energy": 2944.26
+    }
+  },
+  {
+    "id": 92490,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.660654,
+      "latency": 500385.0,
+      "energy": 2889.2
+    }
+  },
+  {
+    "id": 92491,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.69376,
+      "latency": 525735.0,
+      "energy": 2882.44
+    }
+  },
+  {
+    "id": 92492,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.687919,
+      "latency": 589454.0,
+      "energy": 2886.42
+    }
+  },
+  {
+    "id": 92493,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.67059,
+      "latency": 541059.0,
+      "energy": 2943.45
+    }
+  },
+  {
+    "id": 92494,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.667969,
+      "latency": 512483.0,
+      "energy": 2888.03
+    }
+  },
+  {
+    "id": 92495,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.708875,
+      "latency": 498336.0,
+      "energy": 2879.23
+    }
+  },
+  {
+    "id": 92496,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.701226,
+      "latency": 515558.0,
+      "energy": 2878.57
+    }
+  },
+  {
+    "id": 92497,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.662772,
+      "latency": 579704.0,
+      "energy": 2948.95
+    }
+  },
+  {
+    "id": 92498,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.691506,
+      "latency": 508850.0,
+      "energy": 2889.75
+    }
+  },
+  {
+    "id": 92499,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.728795,
+      "latency": 498962.0,
+      "energy": 2883.94
+    }
+  },
+  {
+    "id": 92500,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.699777,
+      "latency": 510911.0,
+      "energy": 2882.95
+    }
+  },
+  {
+    "id": 92501,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.920654,
+      "latency": 475951.0,
+      "energy": 2929.18
+    }
+  },
+  {
+    "id": 92502,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.962271,
+      "latency": 501464.0,
+      "energy": 2872.56
+    }
+  },
+  {
+    "id": 92503,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.962271,
+      "latency": 497921.0,
+      "energy": 2869.31
+    }
+  },
+  {
+    "id": 92504,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.969928,
+      "latency": 496259.0,
+      "energy": 2869.47
+    }
+  },{
+    "id": 92505,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.86513,
+      "latency": 572308.2,
+      "energy": 2935.768
+    }
+  },
+  {
+    "id": 92506,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.974429,
+      "latency": 460988.0,
+      "energy": 2871.41
+    }
+  },
+  {
+    "id": 92507,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.96888,
+      "latency": 510046.0,
+      "energy": 2867.5
+    }
+  },
+  {
+    "id": 92508,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.585281,
+      "latency": 678182.0,
+      "energy": 2885.47
+    }
+  },
+  {
+    "id": 92509,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.903076,
+      "latency": 525832.0,
+      "energy": 2931.38
+    }
+  },
+  {
+    "id": 92510,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.966797,
+      "latency": 474160.0,
+      "energy": 2875.05
+    }
+  },
+  {
+    "id": 92511,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.972172,
+      "latency": 488953.0,
+      "energy": 2869.67
+    }
+  },
+  {
+    "id": 92512,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.956565,
+      "latency": 488406.0,
+      "energy": 2870.52
+    }
+  },
+  {
+    "id": 92513,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.935837,
+      "latency": 500327.0,
+      "energy": 2931.71
+    }
+  },
+  {
+    "id": 92514,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.964425,
+      "latency": 505595.0,
+      "energy": 2876.15
+    }
+  },
+  {
+    "id": 92515,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.967758,
+      "latency": 480955.0,
+      "energy": 2870.91
+    }
+  },
+  {
+    "id": 92516,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.966518,
+      "latency": 493232.0,
+      "energy": 2875.17
+    }
+  },
+  {
+    "id": 92517,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.912361,
+      "latency": 512455.0,
+      "energy": 2931.04
+    }
+  },
+  {
+    "id": 92518,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.955682,
+      "latency": 518509.0,
+      "energy": 2875.97
+    }
+  },
+  {
+    "id": 92519,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.96887,
+      "latency": 515165.0,
+      "energy": 2875.7
+    }
+  },
+  {
+    "id": 92520,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.933403,
+      "latency": 533757.0,
+      "energy": 2885.6
+    }
+  },
+  {
+    "id": 92521,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.819481,
+      "latency": 572383.0,
+      "energy": 2937.27
+    }
+  },
+  {
+    "id": 92522,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.946112,
+      "latency": 568579.0,
+      "energy": 2879.35
+    }
+  },
+  {
+    "id": 92523,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.96448,
+      "latency": 497566.0,
+      "energy": 2871.46
+    }
+  },
+  {
+    "id": 92524,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.96317,
+      "latency": 505664.0,
+      "energy": 2869.1
+    }
+  },
+  {
+    "id": 92525,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.639758,
+      "latency": 521180.0,
+      "energy": 2953.81
+    }
+  },
+  {
+    "id": 92526,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.649987,
+      "latency": 528712.0,
+      "energy": 2890.5
+    }
+  },
+  {
+    "id": 92527,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.670388,
+      "latency": 549744.0,
+      "energy": 2890.27
+    }
+  },
+  {
+    "id": 92528,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.659598,
+      "latency": 648044.0,
+      "energy": 2890.13
+    }
+  },
+  {
+    "id": 92529,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.675151,
+      "latency": 498130.0,
+      "energy": 2941.4
+    }
+  },
+  {
+    "id": 92530,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.686,
+      "latency": 509787.0,
+      "energy": 2888.69
+    }
+  },
+  {
+    "id": 92531,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.696653,
+      "latency": 559334.0,
+      "energy": 2882.59
+    }
+  },
+  {
+    "id": 92532,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.678571,
+      "latency": 528989.0,
+      "energy": 2884.71
+    }
+  },
+  {
+    "id": 92533,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.660242,
+      "latency": 536221.0,
+      "energy": 2950.17
+    }
+  },
+  {
+    "id": 92534,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.689941,
+      "latency": 512976.0,
+      "energy": 2887.4
+    }
+  },
+  {
+    "id": 92535,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.704896,
+      "latency": 540265.0,
+      "energy": 2881.53
+    }
+  },
+  {
+    "id": 92536,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 2048,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.697882,
+      "latency": 499644.0,
+      "energy": 2885.64
+    }
+  },
+  {
+    "id": 92537,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.913933,
+      "latency": 480975.0,
+      "energy": 2929.44
+    }
+  },
+  {
+    "id": 92538,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.917236,
+      "latency": 530484.0,
+      "energy": 2891.39
+    }
+  },
+  {
+    "id": 92539,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.953342,
+      "latency": 491996.0,
+      "energy": 2871.22
+    }
+  },
+  {
+    "id": 92540,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.958659,
+      "latency": 505972.0,
+      "energy": 2872.01
+    }
+  },
+  {
+    "id": 92541,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.872733,
+      "latency": 504722.0,
+      "energy": 2928.41
+    }
+  },
+  {
+    "id": 92542,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.968989,
+      "latency": 504780.0,
+      "energy": 2873.04
+    }
+  },
+  {
+    "id": 92543,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.979888,
+      "latency": 483567.0,
+      "energy": 2867.15
+    }
+  },
+  {
+    "id": 92544,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.962054,
+      "latency": 510897.0,
+      "energy": 2869.16
+    }
+  },
+  {
+    "id": 92545,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.867973,
+      "latency": 508973.0,
+      "energy": 2931.16
+    }
+  },
+  {
+    "id": 92546,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.964639,
+      "latency": 503777.0,
+      "energy": 2873.43
+    }
+  },
+  {
+    "id": 92547,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.979911,
+      "latency": 504299.0,
+      "energy": 2869.05
+    }
+  },
+  {
+    "id": 92548,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 4096,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.977679,
+      "latency": 489185.0,
+      "energy": 2867.72
+    }
+  },
+  {
+    "id": 92549,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.929443,
+      "latency": 482778.0,
+      "energy": 2929.26
+    }
+  },
+  {
+    "id": 92550,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.968949,
+      "latency": 483493.0,
+      "energy": 2870.89
+    }
+  },
+  {
+    "id": 92551,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.95887,
+      "latency": 495202.0,
+      "energy": 2873.71
+    }
+  },
+  {
+    "id": 92552,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 192,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.950068,
+      "latency": 506718.0,
+      "energy": 2871.87
+    }
+  },
+  {
+    "id": 92553,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.908297,
+      "latency": 503979.0,
+      "energy": 2931.05
+    }
+  },
+  {
+    "id": 92554,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.970078,
+      "latency": 514511.0,
+      "energy": 2872.18
+    }
+  },
+  {
+    "id": 92555,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.481156,
+      "latency": 550079.0,
+      "energy": 2904.82
+    }
+  },
+  {
+    "id": 92556,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 384,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.736607,
+      "latency": 1057300.0,
+      "energy": 2894.1
+    }
+  },
+  {
+    "id": 92557,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 4,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.87505,
+      "latency": 485805.0,
+      "energy": 2929.91
+    }
+  },
+  {
+    "id": 92558,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 8,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.95585,
+      "latency": 494788.0,
+      "energy": 2874.46
+    }
+  },
+  {
+    "id": 92559,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 12,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.960001,
+      "latency": 496720.0,
+      "energy": 2870.73
+    }
+  },
+  {
+    "id": 92560,
+    "params": {
+      "_RPL_DIO_INTERVAL_MIN": 16,
+      "_MAX_LINK_METRIC": 8192,
+      "_RANK_THRESHOLD": 768,
+      "_RPL_DAO_DELAY": 512,
+      "_RPL_DIS_INTERVAL": 3840,
+      "_RPL_PROBING_INTERVAL": 11520
+    },
+    "metrics": {
+      "reliability": 0.952111,
+      "latency": 505408.0,
+      "energy": 2869.07
+    }
+  }
+]

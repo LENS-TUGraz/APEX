@@ -1,0 +1,1250 @@
+[
+    {
+        "id": 37155,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.674024,
+            "latency": 602.13,
+            "energy": 191.132
+        }
+    },
+    {
+        "id": 37156,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.805768,
+            "latency": 596.813,
+            "energy": 177.441
+        }
+    },
+    {
+        "id": 37157,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.865874,
+            "latency": 592.521,
+            "energy": 167.218
+        }
+    },
+    {
+        "id": 37158,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.922619,
+            "latency": 592.991,
+            "energy": 164.632
+        }
+    },
+    {
+        "id": 37159,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.870008,
+            "latency": 596.39,
+            "energy": 188.942
+        }
+    },
+    {
+        "id": 37160,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.932937,
+            "latency": 601.48,
+            "energy": 182.995
+        }
+    },
+    {
+        "id": 37161,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.957483,
+            "latency": 599.545,
+            "energy": 180.67
+        }
+    },
+    {
+        "id": 37162,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.982993,
+            "latency": 602.495,
+            "energy": 177.354
+        }
+    },
+    {
+        "id": 37163,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.889643,
+            "latency": 600.91,
+            "energy": 206.629
+        }
+    },
+    {
+        "id": 37164,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.927057,
+            "latency": 607.056,
+            "energy": 197.369
+        }
+    },
+    {
+        "id": 37165,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.956633,
+            "latency": 604.564,
+            "energy": 193.52
+        }
+    },
+    {
+        "id": 37166,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.977891,
+            "latency": 609.316,
+            "energy": 191.671
+        }
+    },
+    {
+        "id": 37167,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.874363,
+            "latency": 610.929,
+            "energy": 217.832
+        }
+    },
+    {
+        "id": 37168,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.918437,
+            "latency": 614.214,
+            "energy": 210.193
+        }
+    },
+    {
+        "id": 37169,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.946565,
+            "latency": 608.018,
+            "energy": 208.697
+        }
+    },
+    {
+        "id": 37170,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.987288,
+            "latency": 615.62,
+            "energy": 202.928
+        }
+    },
+    {
+        "id": 37171,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.695505,
+            "latency": 601.855,
+            "energy": 189.749
+        }
+    },
+    {
+        "id": 37172,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.78626,
+            "latency": 587.608,
+            "energy": 171.88
+        }
+    },
+    {
+        "id": 37173,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.87447,
+            "latency": 598.842,
+            "energy": 168.195
+        }
+    },
+    {
+        "id": 37174,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.924512,
+            "latency": 596.878,
+            "energy": 161.625
+        }
+    },
+    {
+        "id": 37175,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.826124,
+            "latency": 604.185,
+            "energy": 187.518
+        }
+    },
+    {
+        "id": 37176,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.884648,
+            "latency": 599.857,
+            "energy": 180.087
+        }
+    },
+    {
+        "id": 37177,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.94402,
+            "latency": 605.562,
+            "energy": 177.026
+        }
+    },
+    {
+        "id": 37178,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.971113,
+            "latency": 601.792,
+            "energy": 176.96
+        }
+    },
+    {
+        "id": 37179,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.831918,
+            "latency": 603.319,
+            "energy": 205.496
+        }
+    },
+    {
+        "id": 37180,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.894492,
+            "latency": 609.156,
+            "energy": 196.536
+        }
+    },
+    {
+        "id": 37181,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.943172,
+            "latency": 610.592,
+            "energy": 192.644
+        }
+    },
+    {
+        "id": 37182,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.987267,
+            "latency": 614.13,
+            "energy": 190.003
+        }
+    },
+    {
+        "id": 37183,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.845501,
+            "latency": 610.376,
+            "energy": 216.147
+        }
+    },
+    {
+        "id": 37184,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.917517,
+            "latency": 610.479,
+            "energy": 212.043
+        }
+    },
+    {
+        "id": 37185,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.951654,
+            "latency": 617.595,
+            "energy": 206.994
+        }
+    },
+    {
+        "id": 37186,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.987223,
+            "latency": 615.311,
+            "energy": 204.353
+        }
+    },
+    {
+        "id": 37187,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.680508,
+            "latency": 596.471,
+            "energy": 186.71
+        }
+    },
+    {
+        "id": 37188,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.797114,
+            "latency": 590.987,
+            "energy": 172.539
+        }
+    },
+    {
+        "id": 37189,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.852891,
+            "latency": 593.619,
+            "energy": 167.849
+        }
+    },
+    {
+        "id": 37190,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.953231,
+            "latency": 603.779,
+            "energy": 165.682
+        }
+    },
+    {
+        "id": 37191,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.868085,
+            "latency": 596.899,
+            "energy": 186.337
+        }
+    },
+    {
+        "id": 37192,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.886905,
+            "latency": 599.59,
+            "energy": 180.588
+        }
+    },
+    {
+        "id": 37193,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.930508,
+            "latency": 602.466,
+            "energy": 178.504
+        }
+    },
+    {
+        "id": 37194,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.977929,
+            "latency": 602.331,
+            "energy": 179.859
+        }
+    },
+    {
+        "id": 37195,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.85617,
+            "latency": 607.016,
+            "energy": 203.822
+        }
+    },
+    {
+        "id": 37196,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.891433,
+            "latency": 609.406,
+            "energy": 197.994
+        }
+    },
+    {
+        "id": 37197,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.938931,
+            "latency": 606.542,
+            "energy": 191.499
+        }
+    },
+    {
+        "id": 37198,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.971113,
+            "latency": 606.747,
+            "energy": 193.046
+        }
+    },
+    {
+        "id": 37199,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.824979,
+            "latency": 609.153,
+            "energy": 215.647
+        }
+    },
+    {
+        "id": 37200,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.887193,
+            "latency": 607.497,
+            "energy": 208.758
+        }
+    },
+    {
+        "id": 37201,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.932994,
+            "latency": 613.688,
+            "energy": 206.451
+        }
+    },
+    {
+        "id": 37202,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.980508,
+            "latency": 617.109,
+            "energy": 206.037
+        }
+    },
+    {
+        "id": 37203,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.694208,
+            "latency": 608.837,
+            "energy": 187.233
+        }
+    },
+    {
+        "id": 37204,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.839966,
+            "latency": 611.66,
+            "energy": 177.855
+        }
+    },
+    {
+        "id": 37205,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.896522,
+            "latency": 600.492,
+            "energy": 168.193
+        }
+    },
+    {
+        "id": 37206,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.931181,
+            "latency": 595.797,
+            "energy": 166.195
+        }
+    },
+    {
+        "id": 37207,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.854839,
+            "latency": 596.774,
+            "energy": 187.458
+        }
+    },
+    {
+        "id": 37262,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.886248,
+            "latency": 597.891,
+            "energy": 182.259
+        }
+    },
+    {
+        "id": 37329,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.947413,
+            "latency": 607.542,
+            "energy": 179.043
+        }
+    },
+    {
+        "id": 37330,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.952421,
+            "latency": 605.918,
+            "energy": 177.436
+        }
+    },
+    {
+        "id": 37331,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.85034,
+            "latency": 605.457,
+            "energy": 202.555
+        }
+    },
+    {
+        "id": 37332,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.899745,
+            "latency": 602.228,
+            "energy": 196.209
+        }
+    },
+    {
+        "id": 37333,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.941327,
+            "latency": 608.742,
+            "energy": 194.033
+        }
+    },
+    {
+        "id": 37334,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.961767,
+            "latency": 607.501,
+            "energy": 190.497
+        }
+    },
+    {
+        "id": 37335,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.844652,
+            "latency": 605.683,
+            "energy": 214.976
+        }
+    },
+    {
+        "id": 37336,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.907627,
+            "latency": 615.757,
+            "energy": 212.318
+        }
+    },
+    {
+        "id": 37337,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.944822,
+            "latency": 614.592,
+            "energy": 208.717
+        }
+    },
+    {
+        "id": 37338,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.959288,
+            "latency": 616.276,
+            "energy": 205.031
+        }
+    },
+    {
+        "id": 37339,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.687023,
+            "latency": 588.019,
+            "energy": 183.233
+        }
+    },
+    {
+        "id": 37340,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.79322,
+            "latency": 601.975,
+            "energy": 175.288
+        }
+    },
+    {
+        "id": 37341,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.870229,
+            "latency": 594.607,
+            "energy": 170.126
+        }
+    },
+    {
+        "id": 37342,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.915745,
+            "latency": 598.863,
+            "energy": 164.127
+        }
+    },
+    {
+        "id": 37343,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.815319,
+            "latency": 597.18,
+            "energy": 187.455
+        }
+    },
+    {
+        "id": 37344,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.882203,
+            "latency": 603.007,
+            "energy": 182.428
+        }
+    },
+    {
+        "id": 37345,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.951489,
+            "latency": 601.007,
+            "energy": 180.294
+        }
+    },
+    {
+        "id": 37346,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.950806,
+            "latency": 600.147,
+            "energy": 176.155
+        }
+    },
+    {
+        "id": 37347,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.82782,
+            "latency": 602.649,
+            "energy": 197.949
+        }
+    },
+    {
+        "id": 37348,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.9,
+            "latency": 604.659,
+            "energy": 198.357
+        }
+    },
+    {
+        "id": 37349,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.926995,
+            "latency": 604.23,
+            "energy": 191.401
+        }
+    },
+    {
+        "id": 37470,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.970314,
+            "latency": 608.04,
+            "energy": 188.995
+        }
+    },
+    {
+        "id": 37471,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.889737,
+            "latency": 611.893,
+            "energy": 216.286
+        }
+    },
+    {
+        "id": 37472,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.92275,
+            "latency": 615.484,
+            "energy": 206.536
+        }
+    },
+    {
+        "id": 37473,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.97534,
+            "latency": 617.915,
+            "energy": 204.85
+        }
+    },
+    {
+        "id": 37540,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.983008,
+            "latency": 619.606,
+            "energy": 205.512
+        }
+    },
+    {
+        "id": 37541,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.481733,
+            "latency": 588.434,
+            "energy": 178.85
+        }
+    },
+    {
+        "id": 37647,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.758065,
+            "latency": 596.631,
+            "energy": 156.51
+        }
+    },
+    {
+        "id": 37648,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.836441,
+            "latency": 602.181,
+            "energy": 157.252
+        }
+    },
+    {
+        "id": 37649,
+        "params": {
+            "n_tx_max": 1,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.917657,
+            "latency": 600.151,
+            "energy": 161.821
+        }
+    },
+    {
+        "id": 37650,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.789009,
+            "latency": 594.639,
+            "energy": 183.944
+        }
+    },
+    {
+        "id": 37651,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.892282,
+            "latency": 598.926,
+            "energy": 177.882
+        }
+    },
+    {
+        "id": 37652,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.932031,
+            "latency": 600.755,
+            "energy": 175.919
+        }
+    },
+    {
+        "id": 37653,
+        "params": {
+            "n_tx_max": 2,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.971162,
+            "latency": 601.81,
+            "energy": 176.868
+        }
+    },
+    {
+        "id": 37654,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.836024,
+            "latency": 612.403,
+            "energy": 199.7
+        }
+    },
+    {
+        "id": 37655,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.931973,
+            "latency": 608.057,
+            "energy": 197.748
+        }
+    },
+    {
+        "id": 37656,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.965225,
+            "latency": 609.028,
+            "energy": 194.553
+        }
+    },
+    {
+        "id": 37657,
+        "params": {
+            "n_tx_max": 3,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.976251,
+            "latency": 611.917,
+            "energy": 190.906
+        }
+    },
+    {
+        "id": 37658,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 19
+        },
+        "metrics": {
+            "reliability": 0.833475,
+            "latency": 614.666,
+            "energy": 215.82
+        }
+    },
+    {
+        "id": 37659,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 23
+        },
+        "metrics": {
+            "reliability": 0.923664,
+            "latency": 610.276,
+            "energy": 208.232
+        }
+    },
+    {
+        "id": 37660,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 27
+        },
+        "metrics": {
+            "reliability": 0.958404,
+            "latency": 611.603,
+            "energy": 211.788
+        }
+    },
+    {
+        "id": 37661,
+        "params": {
+            "n_tx_max": 4,
+            "n_empty_ta": 1,
+            "tx_power": 31
+        },
+        "metrics": {
+            "reliability": 0.992366,
+            "latency": 618.969,
+            "energy": 203.41
+        }
+    }
+]
