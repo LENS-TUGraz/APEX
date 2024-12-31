@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<customconfig>
+    <section name="customconfig" address="0x98900" endianness="little" bits="104">
+      <int bits="8"  offset="0x0">_RPL_DIO_INTERVAL_MIN</int>
+      <int bits="16"  offset="0x1">_RPL_DAO_DELAY</int>	
+      <int bits="16"  offset="0x3">_RPL_DIS_INTERVAL</int>	
+      <int bits="32"  offset="0x5">_RPL_PROBING_INTERVAL</int>	
+      <int bits="16"  offset="0x9">_MAX_LINK_METRIC</int>
+      <int bits="16"  offset="0xb">_RANK_THRESHOLD</int>
+    </section>
+</customconfig>
