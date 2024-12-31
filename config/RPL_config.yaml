@@ -1,0 +1,101 @@
+main:
+
+  # can be ArtificialTestEnvironment, RecordedTestEnvironment or DCubeTestEnvironment
+  testEnvironment: 'RecordedTestEnvironment'
+
+  parameters:
+    a:
+      name: '_RPL_DIO_INTERVAL_MIN'
+      values:
+        - 4
+        - 8
+        - 12
+        - 16
+    b:
+      name: '_MAX_LINK_METRIC'
+      values:
+        - 2048
+        - 4096
+        - 8192
+    c:
+      name: '_RANK_THRESHOLD'
+      values:
+        - 192
+        - 384
+        - 768
+
+    d:
+      name: '_RPL_DAO_DELAY'
+      values:
+        - 512
+
+    e:
+      name: '_RPL_DIS_INTERVAL'
+      values:
+        - 3840
+    f:
+      name: '_RPL_PROBING_INTERVAL'
+      values:
+        - 11520
+
+  suggested_parameter_sets: # Optional, if not provided, the optimization will start from a random information gain driven sampling
+    Enabled: True # If True, the optimization will start from the provided parameter sets, if False, the optimization will start from a random information gain driven sampling
+    List:
+        - [ 4, 2048, 192, 512, 3840, 11520 ] # Provide [a, b, c, d, e, f] values for each parameter set
+        - [ 8, 4096, 384, 512, 3840, 11520 ]
+        - [ 12, 8192, 768, 512, 3840, 11520 ]
+        - [ 16, 8192, 768, 512, 3840, 11520 ]
+        - [ 4, 8192, 768, 512, 3840, 11520 ]
+
+
+  n_init_test: 6
+  # allows for simple functions in normal form using up to all of the above specified parameters
+  # spaces are ignored, multiplicative terms are without * and additive terms need to be separated by +
+  fitFunction: 'a + b + c +  d + e + f'
+
+  applicationGoal:
+    thresholds:
+      energy: 2885
+    optimizationTargets:
+      reliability: 1
+
+  constraint_percentile: 50 # Set the percentile of the constraint to be considered (e.g 50 for median, 95 for 95th percentile)
+  constraint_confidence: 98 # Set the maximum confidence level of the constraint to be considered (e.g 80 means 80% confident that the constraint is satisfied with constraint_percentile)
+
+  # termination criteria for the optimization process can be given as "Max_number_of_testbed_trials" or "Confidence_in_optimality"
+  termination_criteria:
+    Max_number_of_testbed_trials: 120 # Set the maximum number of testbed trials to be executed before the optimization process is terminated
+    Confidence_in_optimality: None # Set the confidence level of the optimality needed to terminate the optimization process
+    # (e.g 80 means 80% confident that the optimal solution has been found)
+    # None means that the optimization process will not terminate based on confidence in optimality
+    Confidence_in_satisfying_constraints: None # Set the confidence level of the constraints satisfaction needed to terminate the optimization process
+    # (e.g 80 means 80% confident that the constraints are satisfied)
+    # None means that the optimization process will not terminate based on confidence in constraints satisfaction
+
+  # model_types can be LR = Linear Regression, GP = Gaussian Process, RL-Step = Reinforcement Learning Step, RL-Any = Reinforcement Learning Any
+  model_type: 'GP'
+
+  # If model_type = LR, next testpoint selection algorithm, can be GEL, GER, GUC
+  # If model_type = GP, EI, GP_LCB
+  # If model_type = RL-Step or RL-Any, nextPointAlgo should be RL
+  nextPointAlgo: 'EI'
+
+recordedTestEnvironment:
+  # Note: Paths are always relative to execution directory, not to this settings file!
+  inputPath: '../Results/RPL_results.json'
+dcubeTestEnvironment:
+  # Note: Paths are always relative to execution directory, not to this settings file!
+  hardware: 'nrf'  # can be 'sky' or 'nrf'
+  binaryPath: '../Binaries/RPL/node.hex'
+  customPatchXmlPath: '../Binaries/RPL/custom.xml'
+  storagePath: '../Results/dcube_recordings/RPL_13_12.json'
+  protocolId: 6890
+  jobName: 'Parameter Optimization'
+  jobDescription: 'Part of exploration to find out optimal parameter set.'
+  initTime: 500
+  testTime: 900
+  nodeLayout: 1
+  periodicity: 5000  # delay between message injections, could also be 0 for aperiodic or e.g. 5000 for 5000ms
+  messageLength: 8  # in Bytes, could also be 64
+  jamming: 0  # Jamming Level, could also be 1, 2, 3
+  messageValidityDelta: 30000  # in ms, how long are messages considered valid
