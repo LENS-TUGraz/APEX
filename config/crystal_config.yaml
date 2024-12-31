@@ -1,0 +1,81 @@
+main:
+  # can be ArtificialTestEnvironment, RecordedTestEnvironment or DCubeTestEnvironment
+  testEnvironment: 'RecordedTestEnvironment'
+
+  parameters:
+    a:
+      name: 'n_tx_max'
+      # range as [min max[ :
+      min: 1
+      max: 5
+    b:
+      name: 'tx_power'
+      values:
+        - 19
+        - 23
+        - 27
+        - 31
+
+  suggested_parameter_sets:    # Optional, if not provided, the optimization will start from a random information gain driven sampling
+    Enabled: True # If True, the optimization will start from the provided parameter sets, if False, the optimization will start from a random information gain driven sampling
+    List: # List of suggested parameter sets to start the optimization from
+      - [ 3, 27 ] # Provide [a, b] values for each parameter set
+      - [ 2, 23 ]
+      - [ 1, 19 ]
+      - [ 4, 31 ]
+      - [ 5, 31 ]
+
+  n_init_test: 6
+  # allows for simple functions in normal form using up to all of the above specified parameters
+  # spaces are ignored, multiplicative terms are without * and additive terms need to be separated by +
+  fitFunction: 'a + b '
+
+  applicationGoal:
+    thresholds:
+      energy: 190
+    optimizationTargets:
+      reliability: 1
+
+  constraint_percentile: 50 # Set the percentile of the constraint to be considered (e.g 50 for median, 95 for 95th percentile)
+  constraint_confidence: 98 # Set the maximum confidence level of the constraint to be considered (e.g 80 means 80% confident that the constraint is satisfied with constraint_percentile)
+
+  # termination criteria for the optimization process can be given as "Max_number_of_testbed_trials" or "Confidence_in_optimality"
+  termination_criteria:
+    Max_number_of_testbed_trials: 90 # Set the maximum number of testbed trials to be executed before the optimization process is terminated
+    Confidence_in_optimality: None # Set the confidence level of the optimality needed to terminate the optimization process
+    # (e.g 80 means 80% confident that the optimal solution has been found)
+    # None means that the optimization process will not terminate based on confidence in optimality
+    Confidence_in_satisfying_constraints: None # Set the confidence level of the constraints satisfaction needed to terminate the optimization process
+    # (e.g 80 means 80% confident that the constraints are satisfied)
+    # None means that the optimization process will not terminate based on confidence in constraints satisfaction
+
+  # model_types can be LR = Linear Regression, GP = Gaussian Process, RL-Step = Reinforcement Learning Step, RL-Any = Reinforcement Learning Any
+  model_type: 'LR'
+
+  # If model_type = LR, next testpoint selection algorithm, can be GEL, GER, GUC
+  # If model_type = GP, EI, GP_LCB
+  # If model_type = RL-Step or RL-Any, nextPointAlgo should be RL
+  nextPointAlgo: 'GEL'
+
+
+recordedTestEnvironment:
+  # Note: Paths are always relative to execution directory, not to this settings file!
+  inputPath: '../Results/Crystal_results.json'  # can be a directory, a single filepath or a list of filepaths
+
+dcubeTestEnvironment:
+  # Note: Paths are always relative to execution directory, not to this settings file!
+  hardware: 'nrf'  # can be 'sky' or 'nrf'
+  binaryPath: '../Binaries/Crystal/baloo-crystal-sky.ihex'
+  customPatchXmlPath: '../Binaries/Crystal/custom.xml'
+  storagePath: '../Results/dcube_recordings/RPL_13_12.json'
+  protocolId: 6879
+  jobName: 'Parameter Optimization'
+  jobDescription: 'Part of exploration to find out optimal parameter set.'
+  initTime: 500
+  testTime: 900
+  nodeLayout: 1
+  periodicity: 5000  # delay between message injections, could also be 0 for aperiodic or e.g. 5000 for 5000ms
+  messageLength: 8  # in Bytes, could also be 64
+  jamming: 0  # Jamming Level, could also be 1, 2, 3
+  messageValidityDelta: 30000  # in ms, how long are messages considered valid
+
