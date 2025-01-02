@@ -26,7 +26,7 @@ Handles the storage and management of results. These scripts provide functionali
 - **`ResultsStorage_LR.py`**: Handles operations related to Linear Regression-based approaches.
 
 ### `Utilities.py`
-Offers additional utility functions used across various processes, such as parameter management, data transformation, and evaluation of thresholds and goals.
+Offers additional utility functions used across various processes, such as parameter management, data transformation, and evaluation of thresholds.
 
 ### `RecordedTestEnvironment.py`, `DCubeTestEnvironment.py`
 Provide specific implementations for testing protocols:
