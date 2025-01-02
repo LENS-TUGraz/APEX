@@ -32,7 +32,7 @@ main:
 
   applicationGoal:
     thresholds:
-      energy: 190
+      energy: 160
     optimizationTargets:
       reliability: 1
 
@@ -50,12 +50,12 @@ main:
     # None means that the optimization process will not terminate based on confidence in constraints satisfaction
 
   # model_types can be LR = Linear Regression, GP = Gaussian Process, RL-Step = Reinforcement Learning Step, RL-Any = Reinforcement Learning Any
-  model_type: 'LR'
+  model_type: 'GP'
 
   # If model_type = LR, next testpoint selection algorithm, can be GEL, GER, GUC
   # If model_type = GP, EI, GP_LCB
   # If model_type = RL-Step or RL-Any, nextPointAlgo should be RL
-  nextPointAlgo: 'GEL'
+  nextPointAlgo: 'EI'
 
 
 recordedTestEnvironment:
