@@ -267,6 +267,9 @@ def norm_euclidean(settings, param_set_a, param_set_b):
     """
     current_sq_diff_sum = 0
     for anon_param, value_a in param_set_a.items():
+        # Check if any input is None
+        if param_set_a is None or param_set_b is None:
+            return 10000  # Return 10000 if any input is None just a big number to indicate none
         if len(settings['main']['parameterRanges'][anon_param]) > 1:  # var would be 0 otherwise..
             current_param_mean = settings['main']['parameterMeans'][anon_param]
             current_param_var = settings['main']['parameterVars'][anon_param]
@@ -502,6 +505,8 @@ def calculated_threshold_confidence(settings, results_storage, best_parameter):
     # Extract the latest (last) tuple based on the dictionary keys
     latest_key = max(best_parameter.keys())  # Get the largest key
     latest_best_param = best_parameter[latest_key]  # Extract the tuple
+    if latest_best_param is None:
+        return 0, None, 0
     results_list = const_dict[latest_best_param]
     # calculate the confidence level
     N = len(results_list)
@@ -539,7 +544,10 @@ def calculate_optimality_confidence(cumulative_worst_regret):
     """
     # Calculate the confidence level
     keys = list(cumulative_worst_regret.keys())
-    values = [value[0] for value in cumulative_worst_regret.values()]
+    if cumulative_worst_regret == {}:
+        values = [value[0] for value in cumulative_worst_regret.values()]
+    else:
+        return 0
 
     x_data = np.array(keys)
     y_data = np.array(values)
