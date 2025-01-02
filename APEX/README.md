@@ -21,8 +21,10 @@ Provides the model fitting functionality. The framework uses:
 - **Linear Regression (LR)**: Utilized for simpler, greedy approaches.
 - **Gaussian Process (GP)**: Employed in APEX approaches for advanced parameter optimization.
 
-### `ResultsStorage.py`
-Handles the storage and management of results. This script provides functionalities to store experiment data, update fitted models, and retrieve relevant statistics for decision-making.
+### `ResultsStorage.py` and `ResultsStorage_LR.py`
+Handles the storage and management of results. These scripts provide functionalities to store experiment data, update fitted models, and retrieve relevant statistics for decision-making:
+- **`ResultsStorage.py`**: Handles operations related to Gaussian Process-based approaches.
+- **`ResultsStorage_LR.py`**: Handles operations related to Linear Regression-based approaches.
 
 ### `Utilities.py`
 Offers additional utility functions used across various processes, such as parameter management, data transformation, and evaluation of thresholds and goals.
