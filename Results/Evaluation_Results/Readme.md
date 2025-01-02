@@ -63,4 +63,6 @@ Inside each AR folder, the following files can be found:
   - The inner keys represent the number of testbed trials in the respective iteration.
 
 - **`AR_X_parameter_set.json`**: Contains the returned parameter set as a nested dictionary:
+  - The outer keys represent the iteration numbers.
+  - The inner keys represent the number of testbed trials in the respective iteration.
   - The parameter set is given as a list, where each element corresponds to parameter values in the order defined in the respective configuration file.
