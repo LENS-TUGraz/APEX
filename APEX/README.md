@@ -1,6 +1,4 @@
-# APEX
-
-The `APEX` folder contains the core functionalities required to execute the framework. Below is an overview of the key files and their purposes:
+This folder contains the core functionalities required to execute the framework. Below is an overview of the key files and their purposes:
 
 ## Files
 
