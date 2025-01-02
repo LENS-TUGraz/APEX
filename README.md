@@ -56,10 +56,6 @@ The framework includes several algorithms for next test point selection, impleme
 
 The results of the experiments are stored in the `Results` folder, which contains recorded results for the evaluated protocols. The evaluation results related to the paper for different application requirements (ARs) can be found in the `Evaluation_Results` subfolder.
 
-## Contribution
-
-Feel free to contribute to the project by submitting pull requests or reporting issues.
-
 ---
 
 ### Additional Notes
