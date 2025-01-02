@@ -19,7 +19,7 @@ Each protocol folder contains subfolders named after the NTS approaches used dur
 
 ---
 
-Each NTS approach subfolder contains detailed evaluation results specific to that method for the respective protocol.
+Each NTS approach subfolder contains evaluation results specific to that method for the respective protocol.
 
 # Application Requirements (ARs)
 
@@ -55,3 +55,12 @@ The following table lists the considered ARs along with their respective goals a
 - PRR: Stands for Packet Reception Rate and is expressed as a percentage.
 
 Each AR folder contains results specific to that application requirement for the given NTS approach.
+
+Inside each AR folder, the following files can be found:
+
+- **`AR_X_goal_value.json`**: Contains the goal value returned as a nested dictionary:
+  - The outer keys represent the iteration numbers.
+  - The inner keys represent the number of testbed trials in the respective iteration.
+
+- **`AR_X_parameter_set.json`**: Contains the returned parameter set as a nested dictionary:
+  - The parameter set is given as a list, where each element corresponds to parameter values in the order defined in the respective configuration file.
