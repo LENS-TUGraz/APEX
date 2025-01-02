@@ -1,3 +1,5 @@
+Each subfolder is named after the NTS approaches used during the evaluation.
+
 ## NTS Approaches
 
 - **EI (Expected Improvement)**: Maximizes the expected improvement, focusing on areas of the parameter space that could yield significant improvements in the objective.
