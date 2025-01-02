@@ -7,3 +7,7 @@
 - **GUC (Greedy for Uncertainty)**: Concentrates on areas of high uncertainty in the parameter space to refine predictions.
 - **RL-Any**: Utilizes reinforcement learning to explore the parameter space, can move from one state to any other state.
 - **RL-Step**: A reinforcement learning approach focusing on stepwise exploration of the parameter space.
+
+---
+
+Each NTS approach subfolder contains evaluation results specific to that method for the respective protocol.
