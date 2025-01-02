@@ -41,7 +41,6 @@ Choose one of the following test environments:
 
 - **RecordedTestEnvironment**: Use pre-recorded data.
 - **DCubeTestEnvironment**: Run tests in the D-Cube testbed.
-- **AbstractTestEnvironment**: Implement your custom test environment.
 
 ### Next Test Point Selection Algorithms
 The framework includes several algorithms for next test point selection, implemented in the `APEX` folder. Key methods include:
