@@ -1,11 +1,4 @@
-This folder contains evaluation results for the respective protocols, organized into subfolders.
-
-## Subfolders
-
-- **Crystal**: Includes the evaluation results related to the Crystal protocol.
-- **RPL**: Includes the evaluation results related to the RPL protocol.
-
-Each protocol folder contains subfolders named after the NTS approaches used during the evaluation.
+Each subfolder is named after the NTS approaches used during the evaluation.
 
 ## NTS Approaches
 
@@ -19,7 +12,7 @@ Each protocol folder contains subfolders named after the NTS approaches used dur
 
 ---
 
-Each NTS approach subfolder contains evaluation results specific to that method for the respective protocol.
+Each NTS approach subfolder contains evaluation results specific to that method for RPL protocol.
 
 # Application Requirements (ARs)
 
@@ -31,20 +24,12 @@ The following table lists the considered ARs along with their respective goals a
 
 | **Ref** | **Goal**           | **Constraint**    |
 |---------|--------------------|-------------------|
-| AR_1     | Minimize \( E_c \) | PRR ≥ 65%         |
-| AR_2     | Minimize \( E_c \) | PRR ≥ 92%         |
-| AR_3     | Minimize \( E_c \) | PRR ≥ 96%         |
-| AR_4     | Maximize PRR       | \( E_c \) ≤ 210 J |
-| AR_5     | Maximize PRR       | \( E_c \) ≤ 190 J |
-| AR_6     | Maximize PRR       | \( E_c \) ≤ 170 J |
 | AR_7     | Minimize \( E_c \) | PRR ≥ 65.5%       |
 | AR_8     | Minimize \( E_c \) | PRR ≥ 88%         |
 | AR_9     | Minimize \( E_c \) | PRR ≥ 93%         |
 | AR_10    | Maximize PRR       | \( E_c \) ≤ 2940 J|
 | AR_11    | Maximize PRR       | \( E_c \) ≤ 2885 J|
 | AR_12    | Maximize PRR       | \( E_c \) ≤ 2879 J|
-| AR_13    | Minimize \( E_c \) | PRR ≥ 0.975       |
-| AR_14    | Maximize PRR       | \( E_c \) ≤ 168 J |
 | AR_15    | Minimize \( E_c \) | PRR ≥ 0.947       |
 | AR_16    | Maximize PRR       | \( E_c \) ≤ 2872 J|
 

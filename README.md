@@ -41,7 +41,6 @@ Choose one of the following test environments:
 
 - **RecordedTestEnvironment**: Use pre-recorded data.
 - **DCubeTestEnvironment**: Run tests in the D-Cube testbed.
-- **AbstractTestEnvironment**: Implement your custom test environment.
 
 ### Next Test Point Selection Algorithms
 The framework includes several algorithms for next test point selection, implemented in the `APEX` folder. Key methods include:
@@ -56,10 +55,6 @@ The framework includes several algorithms for next test point selection, impleme
 ## Results
 
 The results of the experiments are stored in the `Results` folder, which contains recorded results for the evaluated protocols. The evaluation results related to the paper for different application requirements (ARs) can be found in the `Evaluation_Results` subfolder.
-
-## Contribution
-
-Feel free to contribute to the project by submitting pull requests or reporting issues.
 
 ---
 

@@ -1,11 +1,4 @@
-This folder contains evaluation results for the respective protocols, organized into subfolders.
-
-## Subfolders
-
-- **Crystal**: Includes the evaluation results related to the Crystal protocol.
-- **RPL**: Includes the evaluation results related to the RPL protocol.
-
-Each protocol folder contains subfolders named after the NTS approaches used during the evaluation.
+Each subfolder is named after the NTS approaches used during the evaluation.
 
 ## NTS Approaches
 
@@ -19,7 +12,7 @@ Each protocol folder contains subfolders named after the NTS approaches used dur
 
 ---
 
-Each NTS approach subfolder contains evaluation results specific to that method for the respective protocol.
+Each NTS approach subfolder contains evaluation results specific to that method for Crytsal protocol.
 
 # Application Requirements (ARs)
 
@@ -37,16 +30,8 @@ The following table lists the considered ARs along with their respective goals a
 | AR_4     | Maximize PRR       | \( E_c \) ≤ 210 J |
 | AR_5     | Maximize PRR       | \( E_c \) ≤ 190 J |
 | AR_6     | Maximize PRR       | \( E_c \) ≤ 170 J |
-| AR_7     | Minimize \( E_c \) | PRR ≥ 65.5%       |
-| AR_8     | Minimize \( E_c \) | PRR ≥ 88%         |
-| AR_9     | Minimize \( E_c \) | PRR ≥ 93%         |
-| AR_10    | Maximize PRR       | \( E_c \) ≤ 2940 J|
-| AR_11    | Maximize PRR       | \( E_c \) ≤ 2885 J|
-| AR_12    | Maximize PRR       | \( E_c \) ≤ 2879 J|
 | AR_13    | Minimize \( E_c \) | PRR ≥ 0.975       |
 | AR_14    | Maximize PRR       | \( E_c \) ≤ 168 J |
-| AR_15    | Minimize \( E_c \) | PRR ≥ 0.947       |
-| AR_16    | Maximize PRR       | \( E_c \) ≤ 2872 J|
 
 ### Notes:
 - **Goal**: Indicates whether the focus is on minimizing energy consumption (\( E_c \)) or maximizing the Packet Reception Rate (PRR).
@@ -66,3 +51,4 @@ Inside each AR folder, the following files can be found:
   - The outer keys represent the iteration numbers.
   - The inner keys represent the number of testbed trials in the respective iteration.
   - The parameter set is given as a list, where each element corresponds to parameter values in the order defined in the respective configuration file.
+
