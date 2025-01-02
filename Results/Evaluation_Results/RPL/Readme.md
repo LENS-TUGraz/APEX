@@ -10,4 +10,4 @@
 
 ---
 
-Each NTS approach subfolder contains evaluation results specific to that method for the respective protocol.
+Each NTS approach subfolder contains evaluation results specific to that method for RPL protocol.
