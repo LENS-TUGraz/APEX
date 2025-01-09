@@ -2,13 +2,10 @@ import numpy as np
 import statistics
 from scipy.stats import norm
 import Utilities
-from sklearn.gaussian_process import GaussianProcessRegressor
 import warnings
 from sklearn.exceptions import ConvergenceWarning
-from joblib import parallel_backend
-import itertools
 import random
-from sklearn.preprocessing import StandardScaler
+
 
 class Next_Testpoint_Selection:
 
@@ -273,6 +270,12 @@ class Next_Testpoint_Selection:
             x_next = Utilities.pick_random_params(self._settings) # Pick a random parameter combination
         return x_next
     def acquisition_EI(self, x, model,result_storage):
+        """
+        :param x: scaled version of the parameter set
+        :param model: Latest Gaussian Process model
+        :param result_storage: The ResultStorage which contains the results of the tests so far.
+        :return: The expected improvement and the improvement
+        """
         mu, sigma = model.predict(np.array(x).reshape(1, -1), return_std=True) # Predict the mean and standard deviation of the model
         group_results = result_storage.current_constained_table.groupby(self.anon_var_list) # Group the current results
         result_dict = {key: group['goal'].tolist() for key, group in group_results} # Create a dictionary with the current results
@@ -295,6 +298,14 @@ class Next_Testpoint_Selection:
         return EI[0], imp
 
     def acquisition_UCB(self, x, model, beta_t,param_dict):
+        """
+        Calculates the GP LCB and the coefficient of variation for a given parameter set.
+        :param x: scaled version of the parameter set
+        :param model: Latest Gaussian Process model
+        :param beta_t: The calibration parameter for the LCB
+        :param param_dict: The parameter set for which to calculate the GP LCB and the coefficient of variation
+        :return: The GP LCB and the coefficient of variation
+        """
         mu, sigma = model.predict(np.array(x).reshape(1, -1), return_std=True) # Predict the mean and standard deviation of the model
         GP_LCB = mu - np.sqrt(beta_t)*sigma # Calculate the GP LCB
         self.mean_results_itr_2[tuple(float(value) for value in param_dict.values())] = mu # Store the mean results from GP LCB
@@ -344,6 +355,7 @@ class Next_Testpoint_Selection:
         :param result_storage: The ResultStorage to work on.
         :param list_of_param_dicts_to_search_in: List of parameter dictionaries to explore. Will be all combinations if
                                                  not specified.
+        :param max_runs: The maximum number of runs for a parameter set to be considered exhausted.
         :return: (minimum, corresponding_params) of the lowest goal function point
                  None if thresholds are nowhere satisfied
         """
@@ -370,6 +382,7 @@ class Next_Testpoint_Selection:
     def GEL(self, result_storage): # GEL - Greedy for Exploration
         """
         Search goal minimum using brute force on application wide currently used goal fit.
+        :param result_storage: The ResultStorage which contains the results of the tests so far.
         :return: The parameters which lead to the lowest fit value.
         """
         min_goal_value, brute_result = self.brute_force_on_argument(self._settings, result_storage) # Get the minimum goal value and the corresponding parameter combination
@@ -378,7 +391,9 @@ class Next_Testpoint_Selection:
         return brute_result
 
     def GUC(self, result_storage): # GUC - Greedy for Uncertainty in parameter space
-        """Search next point to test by being greedy for uncertainty in parameter space."""
+        """Search next point to test by being greedy for uncertainty in parameter space.
+        :param result_storage: The ResultStorage which contains the results of the tests so far.
+        :return: The parameters which lead to the highest uncertainty in the parameter space."""
         tests_at_helper = self.create_tests_at_helper(result_storage) # Return the parameter set as tuple and the count of this parameter set in the result_storage table
         uncertainty = np.zeros(len(self._settings['main']['listOfParamTuples'])) # Initialize the uncertainty vector
         param_ranges = self._settings['main']['parameterRanges'] # Get the parameter ranges
@@ -424,6 +439,14 @@ class Next_Testpoint_Selection:
             params = Utilities.tuple_to_param_dict(candidate_list[0])
         return params
 
+    def GER(self): # GER - Greedy for Exploration
+        "Nothing to do as NTS as it is starigt forward to explore the parameter space"
+        pass
+
+    def RL(self): # RL - Reinforcement Learning
+        "Nothing to do as the model type care of it"
+        pass
+
     def create_tests_at_helper(self, result_storage):
         """Creates a dictionary containing one element per set of same parameter combinations in the result_storage
            table. Every element contains the count of this parameter set in the result_storage table.
@@ -450,14 +473,6 @@ class Next_Testpoint_Selection:
             return tests_at_helper[params_tuple]
         else:
             return 0
-
-    def GER(self): # GER - Greedy for Exploration
-        "Nothing to do as NTS as it is starigt forward to explore the parameter space"
-        pass
-
-    def RL(self): # RL - Reinforcement Learning
-        "Nothing to do as the model type care of it"
-        pass
 
 
 

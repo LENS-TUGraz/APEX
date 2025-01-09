@@ -3,7 +3,6 @@ import random
 
 import numpy as np
 import pandas as pd
-import copy
 import math
 import scipy
 from scipy.stats import binom
