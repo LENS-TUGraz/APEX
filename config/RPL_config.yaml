@@ -53,11 +53,14 @@ main:
   # spaces are ignored, multiplicative terms are without * and additive terms need to be separated by +
   fitFunction: 'a + b + c +  d + e + f'
 
-  applicationGoal:
-    thresholds:
-      energy: 2885
-    optimizationTargets:
-      reliability: 1
+  applicationGoal: # Define the application requirement (AR)
+    thresholds:     # Define the thresholds for the application requirement
+      energy: 2885  # Constraint metric and the threshold value for the constraint metric currently supported metrics are energy, reliability and latency
+    optimizationTargets: # Define the optimization targets which defines the goal of the optimization process
+      reliability: 1 # Optimization metric and the weight for the respective metric currently supported metrics are energy, reliability and latency
+                      # The weight should be a value between 0 and 1, where 0 means that the metric is not considered in the optimization process and 1 means that the metric is the only optimization target
+                      # For multi-objective optimization, the sum of the weights should be equal to 1. For example, reliability: 0.5, energy: 0.5
+                      # Weights should be calibrated to avoid bias in the optimization process
 
   constraint_percentile: 50 # Set the percentile of the constraint to be considered (e.g 50 for median, 95 for 95th percentile)
   constraint_confidence: 98 # Set the maximum confidence level of the constraint to be considered (e.g 80 means 80% confident that the constraint is satisfied with constraint_percentile)
