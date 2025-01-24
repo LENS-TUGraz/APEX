@@ -1,3 +1,22 @@
+"""
+Main Module for the APEX Framework.
+
+This script serves as the entry point for the APEX framework. It connects all core components
+and executes the optimization workflow based on the specified settings file. The settings file
+defines the protocol (e.g., RPL, Crystal), application requirements (ARs), and other configuration parameters.
+
+Usage:
+- Update the `SETTINGS_FILE` variable to specify the configuration file (e.g., RPL_config.yaml or crystal_config.yaml).
+- Run this script to start the framework.
+
+Key Features:
+- Loads and connects core modules such as test environments, NTS approaches, and result storage.
+- Executes the optimization process iteratively based on the selected protocol and configuration.
+
+Note:
+Ensure all dependencies are installed and configurations are correctly set before execution.
+"""
+
 import copy
 import random
 import statistics
@@ -14,8 +33,8 @@ from ResultsStorage import ResultStorage
 from ResultsStorage_LR import ResultStorage_LR
 from model_fitting import fit_model
 
-SETTINGS_FILE = '../config/RPL_config.yaml' # The settings file to use for RPL D-cube
-SETTINGS_FILE = '../config/crystal_config.yaml' # The settings file to use for RPL D
+#SETTINGS_FILE = '../config/RPL_config.yaml' # The settings file to use for RPL
+SETTINGS_FILE = '../config/crystal_config.yaml' # The settings file to use for Crystal
 
 class Main:
     def __init__(self, settings_file):
