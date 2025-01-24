@@ -33,7 +33,7 @@ from ResultsStorage import ResultStorage
 from ResultsStorage_LR import ResultStorage_LR
 from model_fitting import fit_model
 
-SETTINGS_FILE = '../config/RPL_config.yaml' # The settings file to use for RPL
+#SETTINGS_FILE = '../config/RPL_config.yaml' # The settings file to use for RPL
 SETTINGS_FILE = '../config/crystal_config.yaml' # The settings file to use for Crystal
 
 class Main:
