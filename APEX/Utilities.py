@@ -8,6 +8,7 @@ import scipy
 from scipy.stats import binom
 from math import comb
 from scipy.optimize import curve_fit
+from scipy.stats import qmc
 
 from DCubeTestEnvironment import DCubeTestEnvironment
 from RecordedTestEnvironment import RecordedTestEnvironment
@@ -158,6 +159,15 @@ def reformat_settings(settings):
         else:
             # In case no valid configuration is found
             settings['main']['parameter_values'][key] = []
+    settings['main']['init_samples'] = []
+    if settings['main']['init_sampling'] != 'random':
+        if settings['main']['init_sampling'] == 'lhs':
+            num_parameters, discrete_values = extract_parameter_details(settings['main']['listOfParamTuples'])
+            settings['main']['init_samples'] = generate_lhs_samples(settings['main']['n_init_test'], discrete_values)
+        elif settings['main']['init_sampling'] == 'sobel':
+            num_parameters, discrete_values = extract_parameter_details(settings['main']['listOfParamTuples'])
+            settings['main']['init_samples']= generate_sobol_samples(settings['main']['n_init_test'], discrete_values)
+
 
 
 def binary_search_first_bigger(haystack, needle):
@@ -575,3 +585,41 @@ def calculate_optimality_confidence(cumulative_worst_regret):
         angle_degrees = 0
     confidence = 100*(1 - min(angle_degrees,45)/45)
     return confidence
+
+
+# Function to extract parameter details from the list of tuples
+def extract_parameter_details(param_value_list):
+    num_parameters = len(param_value_list[0])  # Determine the number of parameters
+    discrete_values = [sorted(set(values[i] for values in param_value_list)) for i in range(num_parameters)]
+    return num_parameters, discrete_values
+
+
+# Map sampled indices back to parameter values
+def map_indices_to_values(samples, discrete_values):
+    mapped_samples = []
+    for sample in samples:
+        mapped_sample = [discrete_values[i][int(index)] for i, index in enumerate(sample)]
+        mapped_samples.append(mapped_sample)
+    return mapped_samples
+
+
+# Generate parameter sets using Latin Hypercube Sampling
+def generate_lhs_samples(n, discrete_values):
+    num_parameters = len(discrete_values)
+    sampler = qmc.LatinHypercube(d=num_parameters)
+    lhs_samples = sampler.random(n)
+
+    # Scale to the number of discrete values for each parameter
+    scaled_samples = (lhs_samples * [len(values) for values in discrete_values]).astype(int)
+    return map_indices_to_values(scaled_samples, discrete_values)
+
+
+# Generate parameter sets using Sobol sequences
+def generate_sobol_samples(n, discrete_values):
+    num_parameters = len(discrete_values)
+    sampler = qmc.Sobol(d=num_parameters, scramble=True)
+    sobol_samples = sampler.random_base2(m=int(np.ceil(np.log2(n))))[:n]
+
+    # Scale to the number of discrete values for each parameter
+    scaled_samples = (sobol_samples * [len(values) for values in discrete_values]).astype(int)
+    return map_indices_to_values(scaled_samples, discrete_values)

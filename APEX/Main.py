@@ -34,7 +34,7 @@ from ResultsStorage_LR import ResultStorage_LR
 from model_fitting import fit_model
 
 SETTINGS_FILE = '../config/RPL_config.yaml' # The settings file to use for RPL
-SETTINGS_FILE = '../config/crystal_config.yaml' # The settings file to use for Crystal
+#SETTINGS_FILE = '../config/crystal_config.yaml' # The settings file to use for Crystal
 
 class Main:
     def __init__(self, settings_file):
@@ -91,7 +91,19 @@ class Main:
                     init_runs += 1  # Increment the initial runs
                 self.result_storage.update_fits()  # Update the fits
                 self.settings['main']['totalInitTests'] = self.settings['main']['totalInitTests'] - init_runs  # Subtract the initial runs from the total initial tests
-            for init_test_run_nr in range(self.settings['main']['totalInitTests']):  # For each initial test run
+            if self.settings['main']['totalInitTests'] > 0:  # If the total initial tests is greater than 0 meaning more tests are needed
+                if self.settings['main']['init_samples']:  # If the initial samples are provided as per different method
+                    list_of_param_sets =  [tuple(item) for item in self.settings['main']['init_samples']] # Get the list of  parameter sets
+                    for param_set in list_of_param_sets:
+                        if self.settings['main']['totalInitTests'] == 0: # If the total initial tests is 0, break as no more tests are needed
+                            break
+                        param_set_dict = dict(zip(self.base_params, param_set))  # Create a dictionary of the parameter set
+                        print(f'Main: Initial test run {init_runs + 1} with parameter set {param_set_dict} - ({self.settings["main"]["init_sampling"]} method)')
+                        current_result = self.test_environment.execute_test(param_set_dict)  # Execute the test with the parameter set
+                        self.result_storage.add_single_test(current_result, used=True)
+                        init_runs += 1
+                        self.settings['main']['totalInitTests'] -= 1
+            for init_test_run_nr in range(self.settings['main']['totalInitTests']):  #  Stil more tests are needed so perform random tests
                 parameters_to_draw_from = copy.deepcopy(self.settings['main'][
                                                             'listOfParamDicts'])  # Create a deep copy of the list of parameter dictionaries
                 information_gain = False
@@ -100,7 +112,7 @@ class Main:
                         random_index = random.randrange(len(parameters_to_draw_from)) # Randomly select an index from the list of parameter dictionaries
                         random_params = parameters_to_draw_from.pop(random_index) # Remove the randomly selected parameter dictionary from the list of parameter dictionaries
                         # added information would be redundant (linear independence):
-                        if init_test_run_nr < self.settings['main']['fitFreedomDegrees']: # If the initial test run number is less than the freedom degrees
+                        if init_runs < self.settings['main']['fitFreedomDegrees']: # If the initial test run number is less than the freedom degrees
                             information_gain = self.result_storage.check_for_information_gain(random_params) # Check for information gain
                         else:
                             information_gain = True  # don't care anymore system is overdetermined anyways!  Set information gain to True
@@ -109,9 +121,10 @@ class Main:
                               f'for the specified fit function. Your fits might make little sense this way.')
                         random_params = Utilities.pick_random_params(self.settings) # Pick random parameters
                         information_gain = True # Set information gain to True
-                print(f'Main: Initial test run {init_runs +init_test_run_nr + 1} with random parameter set {random_params}')
+                print(f'Main: Initial test run {init_runs + 1} with random parameter set {random_params}')
                 current_result = self.test_environment.execute_test(random_params) # Execute the test with the selected random parameter
                 self.result_storage.add_single_test(current_result, used=True) # Add the test result to the result storage
+                init_runs += 1 # Increment the initial runs
             self.result_storage.update_fits() # Update the fits
             anon_name = self.settings['main']['anonymousNames'] # Get the anonymous names
             self.anon_var_list = list(anon_name.values()) # Get the list of anonymous names
@@ -130,6 +143,18 @@ class Main:
                     init_runs += 1
                 self.result_storage_LR.update_fits()
                 self.settings['main']['totalInitTests'] = self.settings['main']['totalInitTests'] - init_runs
+            if self.settings['main']['totalInitTests'] > 0:  # If the total initial tests is greater than 0 meaning more tests are needed
+                if self.settings['main']['init_samples']:  # If the initial samples are provided as per different method
+                    list_of_param_sets =  [tuple(item) for item in self.settings['main']['init_samples']] # Get the list of  parameter sets
+                    for param_set in list_of_param_sets:
+                        if self.settings['main']['totalInitTests'] == 0: # If the total initial tests is 0, break as no more tests are needed
+                            break
+                        param_set_dict = dict(zip(self.base_params, param_set))  # Create a dictionary of the parameter set
+                        print(f'Main: Initial test run {init_runs + 1} with parameter set {param_set_dict}- ({self.settings["main"]["init_sampling"]} method)')
+                        current_result = self.test_environment.execute_test(param_set_dict)  # Execute the test with the parameter set
+                        self.result_storage_LR.add_single_test(current_result, used=True)
+                        init_runs += 1
+                        self.settings['main']['totalInitTests'] -= 1
             for init_test_run_nr in range(self.settings['main']['totalInitTests']): # For each initial test run
                 parameters_to_draw_from = copy.deepcopy(self.settings['main']['listOfParamDicts']) # Create a deep copy of the list of parameter dictionaries
                 information_gain = False
@@ -140,7 +165,7 @@ class Main:
                         random_params = parameters_to_draw_from.pop(random_index) # Remove the randomly selected parameter dictionary from the list of parameter dictionaries
                         # test if adding this parameter set would add information to the fit or if the
                         # added information would be redundant (linear independence):
-                        if init_test_run_nr < self.settings['main']['fitFreedomDegrees']:
+                        if init_runs < self.settings['main']['fitFreedomDegrees']:
                             information_gain = self.result_storage_LR.check_for_information_gain(random_params)
                         else:
                             information_gain = True  # don't care anymore, system is overdetermined anyways!
@@ -149,9 +174,10 @@ class Main:
                               f'for the specified fit function. Your fits might make little sense this way.')
                         random_params = Utilities.pick_random_params(self.settings) # Pick random parameters
                         information_gain = True # Set information gain to True
-                print(f'Main: Initial test run {init_runs+init_test_run_nr + 1} with random parameter set {random_params}')
+                print(f'Main: Initial test run {init_runs + 1} with random parameter set {random_params}')
                 current_result = self.test_environment.execute_test(random_params) # Execute the test with the selected random parameter
                 self.result_storage_LR.add_single_test(current_result, used=True) # Add the test result to the result storage
+                init_runs += 1
             self.result_storage_LR.update_fits() # Update the LR fits
 
     def main_loop(self):
