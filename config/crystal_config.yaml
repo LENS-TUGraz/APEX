@@ -17,15 +17,16 @@ main:
         - 31
 
   suggested_parameter_sets:    # Optional, if not provided, the optimization will start from a random information gain driven sampling
-    Enabled: True # If True, the optimization will start from the provided parameter sets, if False, the optimization will start from a random information gain driven sampling
+    Enabled: False # If True, the optimization will start from the provided parameter sets, if False, the optimization will start from a random information gain driven sampling
     List: # List of suggested parameter sets to start the optimization from
       - [ 3, 27 ] # Provide [a, b] values for each parameter set
       - [ 2, 23 ]
       - [ 1, 19 ]
       - [ 4, 31 ]
-      - [ 5, 31 ]
 
-  n_init_test: 6
+  init_sampling: lhs  # can be sobel, random, or lhs (latin hypercube sampling)
+  n_init_test: 6 # number of initial tests to be performed before the main optimization process starts
+
   # allows for simple functions in normal form using up to all of the above specified parameters
   # spaces are ignored, multiplicative terms are without * and additive terms need to be separated by +
   fitFunction: 'a + b '
@@ -53,12 +54,12 @@ main:
     # None means that the optimization process will not terminate based on confidence in constraints satisfaction
 
   # model_types can be LR = Linear Regression, GP = Gaussian Process, RL-Step = Reinforcement Learning Step, RL-Any = Reinforcement Learning Any
-  model_type: 'RL-Step'
+  model_type: 'LR'
 
   # If model_type = LR, next testpoint selection algorithm, can be GEL, GER, GUC
   # If model_type = GP, EI, GP_LCB
   # If model_type = RL-Step or RL-Any, nextPointAlgo should be RL
-  nextPointAlgo: 'RL'
+  nextPointAlgo: 'GEL'
 
 
 recordedTestEnvironment:

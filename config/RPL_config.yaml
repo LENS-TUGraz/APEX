@@ -47,8 +47,9 @@ main:
         - [ 16, 8192, 768, 512, 3840, 11520 ]
         - [ 4, 8192, 768, 512, 3840, 11520 ]
 
+  init_sampling: lhs  # can be sobel, random, or lhs (latin hypercube sampling)
+  n_init_test: 6 # number of initial tests to be performed before the main optimization process starts
 
-  n_init_test: 6
   # allows for simple functions in normal form using up to all of the above specified parameters
   # spaces are ignored, multiplicative terms are without * and additive terms need to be separated by +
   fitFunction: 'a + b + c +  d + e + f'
