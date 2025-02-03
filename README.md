@@ -58,6 +58,28 @@ The results of the experiments are stored in the `Results` folder, which contain
 
 ---
 
+## Citation
+
+If you use APEX in your research or project, please consider citing our preprint:
+
+> **APEX: Automated Parameter Exploration for Low-Power Wireless Protocols**  
+> Mohamed Hassaan M. Hydher, Markus Schuss, Olga Saukh, Kay Römer, Carlo Alberto Boano  
+> Preprint available at [arXiv:2501.19194](https://arxiv.org/abs/2501.19194).
+
+BibTeX citation:
+
+```bibtex
+@misc{hydher2025apexautomatedparameterexploration,
+      title={APEX: Automated Parameter Exploration for Low-Power Wireless Protocols}, 
+      author={Mohamed Hassaan M. Hydher and Markus Schuss and Olga Saukh and Kay Römer and Carlo Alberto Boano},
+      year={2025},
+      eprint={2501.19194},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2501.19194}, 
+}
+```
+
 ### Additional Notes
 
 - If running on the D-Cube testbed, ensure the `Binaries` folder contains the correct firmware and related files.
