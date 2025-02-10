@@ -34,19 +34,19 @@ The following table lists the considered ARs along with their respective goals a
 | AR_1     | Minimize \( E_c \) | PRR ≥ 65%         |
 | AR_2     | Minimize \( E_c \) | PRR ≥ 92%         |
 | AR_3     | Minimize \( E_c \) | PRR ≥ 96%         |
-| AR_4     | Maximize PRR       | \( E_c \) ≤ 210 J |
-| AR_5     | Maximize PRR       | \( E_c \) ≤ 190 J |
-| AR_6     | Maximize PRR       | \( E_c \) ≤ 170 J |
+| AR_4     | Maximize PRR       | E_c ≤ 210 J |
+| AR_5     | Maximize PRR       | E_c ≤ 190 J |
+| AR_6     | Maximize PRR       | E_c ≤ 170 J |
 | AR_7     | Minimize \( E_c \) | PRR ≥ 65.5%       |
 | AR_8     | Minimize \( E_c \) | PRR ≥ 88%         |
 | AR_9     | Minimize \( E_c \) | PRR ≥ 93%         |
-| AR_10    | Maximize PRR       | \( E_c \) ≤ 2940 J|
-| AR_11    | Maximize PRR       | \( E_c \) ≤ 2885 J|
-| AR_12    | Maximize PRR       | \( E_c \) ≤ 2879 J|
+| AR_10    | Maximize PRR       | E_c ≤ 2940 J|
+| AR_11    | Maximize PRR       | E_c ≤ 2885 J|
+| AR_12    | Maximize PRR       | E_c ≤ 2879 J|
 | AR_13    | Minimize \( E_c \) | PRR ≥ 0.975       |
-| AR_14    | Maximize PRR       | \( E_c \) ≤ 168 J |
+| AR_14    | Maximize PRR       | E_c ≤ 168 J |
 | AR_15    | Minimize \( E_c \) | PRR ≥ 0.947       |
-| AR_16    | Maximize PRR       | \( E_c \) ≤ 2872 J|
+| AR_16    | Maximize PRR       | E_c ≤ 2872 J|
 
 ### Notes:
 - **Goal**: Indicates whether the focus is on minimizing energy consumption (\( E_c \)) or maximizing the Packet Reception Rate (PRR).
