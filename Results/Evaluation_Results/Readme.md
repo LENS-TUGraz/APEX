@@ -49,9 +49,9 @@ The following table lists the considered ARs along with their respective goals a
 | AR_16    | Maximize PRR       | E_c ≤ 2872 J|
 
 ### Notes:
-- **Goal**: Indicates whether the focus is on minimizing energy consumption (\( E_c \)) or maximizing the Packet Reception Rate (PRR).
+- **Goal**: Indicates whether the focus is on minimizing energy consumption (E_c) or maximizing the Packet Reception Rate (PRR).
 - **Constraint**: Specifies the conditions under which the goal must be achieved.
-- \( E_c \): Represents energy consumption in joules (J).
+- E_c: Represents energy consumption in joules (J).
 - PRR: Stands for Packet Reception Rate and is expressed as a percentage.
 
 Each AR folder contains results specific to that application requirement for the given NTS approach.
