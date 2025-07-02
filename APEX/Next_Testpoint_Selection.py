@@ -74,6 +74,18 @@ class Next_Testpoint_Selection:
 
         # Append the normalized value to sub_opptimality_vector
         self.sub_opptimality_vector.append(worst_regeret) # Append the worst regret to the suboptimality vector
+        if i_actual <= self.n_init_runs:  # Check if the actual iteration number is less than or equal to the number of initial runs
+            cumulative_worst_regret[
+                i_actual - 2] = LCB_max / 200  # Set the cumulative worst regret to the maximum UCB divided by 200 a small value to avoid initial bias
+            cumulative_worst_regret[
+                i_actual - 1] = LCB_max / 100  # Set the cumulative worst regret to the maximum UCB divided by 100 a small value to avoid initial bias and keep the trend of the cumulative worst regret
+        else:
+            if cumulative_worst_regret == {}:  # If the dictionary is empty
+                cumulative_worst_regret[
+                    i_actual - 1] = worst_regeret  # Set the cumulative worst regret to the worst regret as the first element
+            else:  # If the dictionary is not empty
+                cumulative_worst_regret[i_actual - 1] = cumulative_worst_regret[
+                                                            i_actual - 2] + worst_regeret  # Update the cumulative worst regret
         if cumulative_worst_regret == {}:  # If the dictionary is empty
             cumulative_worst_regret[i_actual - 1] = worst_regeret # Set the cumulative worst regret to the worst regret as the first element
         else: # If the dictionary is not empty
@@ -191,6 +203,18 @@ class Next_Testpoint_Selection:
             worst_regeret = float(worst_regeret[0])  # Convert the first element to a float
         # Append the normalized value to sub_opptimality_vector
         self.sub_opptimality_vector.append(worst_regeret) # Append the worst regret to the suboptimality vector
+        if i_actual <= self.n_init_runs:  # Check if the actual iteration number is less than or equal to the number of initial runs
+            cumulative_worst_regret[
+                i_actual - 2] = LCB_max / 200  # Set the cumulative worst regret to the maximum UCB divided by 200 a small value to avoid initial bias
+            cumulative_worst_regret[
+                i_actual - 1] = LCB_max / 100  # Set the cumulative worst regret to the maximum UCB divided by 100 a small value to avoid initial bias and keep the trend of the cumulative worst regret
+        else:
+            if cumulative_worst_regret == {}:  # If the dictionary is empty
+                cumulative_worst_regret[
+                    i_actual - 1] = worst_regeret  # Set the cumulative worst regret to the worst regret as the first element
+            else:  # If the dictionary is not empty
+                cumulative_worst_regret[i_actual - 1] = cumulative_worst_regret[
+                                                            i_actual - 2] + worst_regeret  # Update the cumulative worst regret
         if cumulative_worst_regret == {}:  # If the dictionary is empty
             cumulative_worst_regret[i_actual - 1] = worst_regeret # Set the cumulative worst regret to the worst regret as the first element
         else: # If the dictionary is not empty
