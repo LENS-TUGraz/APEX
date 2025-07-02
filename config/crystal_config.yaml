@@ -1,6 +1,6 @@
 main:
   # can be ArtificialTestEnvironment, RecordedTestEnvironment or DCubeTestEnvironment
-  testEnvironment: 'RecordedTestEnvironment'
+  testEnvironment: 'DCubeTestEnvironment'
 
   parameters:
     a:
@@ -25,7 +25,7 @@ main:
       - [ 4, 31 ]
 
   init_sampling: lhs  # can be sobel, random, or lhs (latin hypercube sampling)
-  n_init_test: 6 # number of initial tests to be performed before the main optimization process starts
+  n_init_test: 2 # number of initial tests to be performed before the main optimization process starts
 
   # allows for simple functions in normal form using up to all of the above specified parameters
   # spaces are ignored, multiplicative terms are without * and additive terms need to be separated by +
@@ -33,7 +33,7 @@ main:
 
   applicationGoal: # Define the application requirement (AR)
     thresholds: # Define the thresholds for the application requirement
-      energy: 190 # Constraint metric and the threshold value for the constraint metric currently supported metrics are energy, reliability and latency
+      energy: 3000 # Constraint metric and the threshold value for the constraint metric currently supported metrics are energy, reliability and latency
     optimizationTargets: # Define the optimization targets which defines the goal of the optimization process
       reliability: 1  # Optimization metric and the weight for the respective metric currently supported metrics are energy, reliability and latency
                       # The weight should be a value between 0 and 1, where 0 means that the metric is not considered in the optimization process and 1 means that the metric is the only optimization target
@@ -41,7 +41,7 @@ main:
                       # Weights should be calibrated to avoid bias in the optimization process
 
   constraint_percentile: 50 # Set the percentile of the constraint to be considered (e.g 50 for median, 95 for 95th percentile)
-  constraint_confidence: 98 # Set the maximum confidence level of the constraint to be considered (e.g 80 means 80% confident that the constraint is satisfied with constraint_percentile)
+  constraint_confidence: 70 # Set the maximum confidence level of the constraint to be considered (e.g 80 means 80% confident that the constraint is satisfied with constraint_percentile)
 
   # termination criteria for the optimization process can be given as "Max_number_of_testbed_trials" or "Confidence_in_optimality"
   termination_criteria:
@@ -54,12 +54,12 @@ main:
     # None means that the optimization process will not terminate based on confidence in constraints satisfaction
 
   # model_types can be LR = Linear Regression, GP = Gaussian Process, RL-Step = Reinforcement Learning Step, RL-Any = Reinforcement Learning Any
-  model_type: 'LR'
+  model_type: 'GP'
 
   # If model_type = LR, next testpoint selection algorithm, can be GEL, GER, GUC
   # If model_type = GP, EI, GP_LCB
   # If model_type = RL-Step or RL-Any, nextPointAlgo should be RL
-  nextPointAlgo: 'GEL'
+  nextPointAlgo: 'EI'
 
 
 recordedTestEnvironment:
@@ -71,15 +71,15 @@ dcubeTestEnvironment:
   hardware: 'nrf'  # can be 'sky' or 'nrf'
   binaryPath: '../Binaries/Crystal/baloo-crystal-sky.ihex'
   customPatchXmlPath: '../Binaries/Crystal/custom.xml'
-  storagePath: '../Results/dcube_recordings/RPL_13_12.json'
+  storagePath: '../Results/dcube_recordings/Crystal_15_05_25.json'
   protocolId: 6879
   jobName: 'Parameter Optimization'
   jobDescription: 'Part of exploration to find out optimal parameter set.'
-  initTime: 500
-  testTime: 900
+  initTime: 20
+  testTime: 100
   nodeLayout: 1
   periodicity: 5000  # delay between message injections, could also be 0 for aperiodic or e.g. 5000 for 5000ms
   messageLength: 8  # in Bytes, could also be 64
-  jamming: 0  # Jamming Level, could also be 1, 2, 3
+  jamming: 2  # Jamming Level, could also be 1, 2, 3
   messageValidityDelta: 30000  # in ms, how long are messages considered valid
 
