@@ -291,14 +291,13 @@ class ResultStorage:
             df = df.dropna(axis=1, how='all')
             self.constrained_table = pd.concat([self.constrained_table, df])
 
-
     def load_initial_data(self, path):
         print(f'ResultStorage: Loading initial data from {path}')
         list_of_results = []
         with open(path, 'r') as json_file:
             data = json.load(json_file)
         for test_result in data:
-            single_job_data= []
+            single_job_data = []
             for key, value in test_result.items():
                 if isinstance(value, dict):
                     single_job_data.extend(value.values())
@@ -326,12 +325,8 @@ class ResultStorage:
                         thresh_satisfied = 0
             if thresh_satisfied == 1:
                 self.constrained_table = pd.concat([self.constrained_table, df])
+                self.current_constained_table = self.constrained_table
         print(f'ResultStorage: Initial data loaded. Table now contains {len(self.table)} entries.')
-
-
-
-
-
 
     def delete_single_test(self, test_id):
         """
