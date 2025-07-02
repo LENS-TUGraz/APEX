@@ -12,7 +12,27 @@ from scipy.stats import qmc
 
 from DCubeTestEnvironment import DCubeTestEnvironment
 from RecordedTestEnvironment import RecordedTestEnvironment
+from bs4 import BeautifulSoup
+from types import SimpleNamespace
 
+
+def load_custom_patch(xml_path):
+    # Read the XML file
+    with open(xml_path, 'r') as file_handle:
+        xml = file_handle.read()
+
+    # Parse the XML
+    soup = BeautifulSoup(xml, features='xml')
+
+    # Extract parameters
+    params = {}
+    for parameter in soup.find_all('int'):
+        current_name = parameter.string.strip()
+        current_bits = int(parameter['bits'])
+        params[current_name] = current_bits
+
+    # Return an object-like structure
+    return SimpleNamespace(xml=xml, params=params)
 
 def create_instance(class_name, *args):
     """
@@ -206,15 +226,20 @@ def pick_random_params(settings):
     return params
 
 
-def evaluate_goal_function(settings, r, l, e):
+def evaluate_goal_function(settings, r=0, l=0, e=0, testbed_results=None):
     """
     Evaluates the goal function on the supplied metrics.
     :param settings: A reference to the global settings object to access the goals stored there.
     :param r: Reliability
     :param l: Latency
     :param e: Energy
+    :param testbed_results: The testbed results to evaluate the goal function on.
     :return: Value of the goal function for specified reliability, latency and energy.
     """
+    if testbed_results is not None:
+        r = testbed_results['reliability']
+        l = testbed_results['latency']
+        e = testbed_results['energy']
     optimum_targets = settings['main']['applicationGoal']['optimizationTargets']
     goal_value = 0
     if 'reliability' in optimum_targets:
@@ -522,7 +547,12 @@ def calculated_threshold_confidence(settings, results_storage, best_parameter):
     # Step 1: Calculate the percentile value
     P_p = np.percentile(results_list, percentile)
     # Step 2: Check how many values satisfy >= threshold
-    satisfying_values = [value for value in results_list if value <= threshold_value]
+    if threshold_metric == 'reliability':
+        satisfying_values = [value for value in results_list if value >= threshold_value]
+    elif threshold_metric == 'latency':
+        satisfying_values = [value for value in results_list if value <= threshold_value]
+    elif threshold_metric == 'energy':
+        satisfying_values = [value for value in results_list if value <= threshold_value]
     l = len(satisfying_values)
     # Step 3: Calculate cumulative binomial probability
     cumulative_prob = sum(comb(N, k) * ((percentile/100)** k) * ((1 - (percentile/100)) ** (N - k)) for k in range(l))
@@ -554,9 +584,9 @@ def calculate_optimality_confidence(cumulative_worst_regret):
     # Calculate the confidence level
     keys = list(cumulative_worst_regret.keys())
     if cumulative_worst_regret == {}:
-        values = [value[0] for value in cumulative_worst_regret.values()]
-    else:
         return 0
+    else:
+        values = list(cumulative_worst_regret.values())
 
     x_data = np.array(keys)
     y_data = np.array(values)
@@ -574,7 +604,12 @@ def calculate_optimality_confidence(cumulative_worst_regret):
 
     if len(x_data) < 10: # Need some data to get a reasonable fit minimum exponential fit requires at least 3 points
         return 0
+    if np.isnan(y_data).any():
+        return 0
     # Fit the data
+    # Convert to NumPy arrays and flatten
+    x_data = np.array(x_data, dtype=float).flatten()
+    y_data = np.array(y_data, dtype=float).flatten()
     params, params_covariance = curve_fit(exponential_func, x_data, y_data, maxfev=100000000)
     a_fit, b_fit, T = params
     last_x_norm = x_data[-1]
