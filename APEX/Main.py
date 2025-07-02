@@ -32,6 +32,8 @@ from Next_Testpoint_Selection import Next_Testpoint_Selection
 from ResultsStorage import ResultStorage
 from ResultsStorage_LR import ResultStorage_LR
 from model_fitting import fit_model
+import json
+import os
 
 #SETTINGS_FILE = '../config/RPL_config.yaml' # The settings file to use for RPL
 SETTINGS_FILE = '../config/crystal_config.yaml' # The settings file to use for Crystal
@@ -207,6 +209,7 @@ class Main:
                 y_next_results = self.test_environment.execute_test(x_next) # Execute the test with the next parameter
                 if type(y_next_results) is dict and y_next_results is not None: # If the type of the results is a dictionary and the results are not None
                     y_next_results = pd.Series(y_next_results) # Convert the results to a pandas series
+                print(f'Main: Test result: {y_next_results}')  # Print the test results
                 x_next_list = y_next_results[self.anon_var_list].values.tolist() # Get the anonymous variable list values
                 self.result_storage.add_single_test(y_next_results, used=True) # Add the test results to the result storage
                 y_next = y_next_results['goal'] # Get the goal value from the test results as the target
