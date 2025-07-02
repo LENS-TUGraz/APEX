@@ -107,14 +107,15 @@ class DCubeTestEnvironment(AbstractTestEnvironment):
 
     def execute_test(self, params):
         print(f'D-Cube: Working on {params}', flush=True)
+        anon_name = self._settings['main']['anonymousNames']
+        result = {name: params[code] for name, code in anon_name.items()}
         #with open(self._settings['dcubeTestEnvironment']['binaryPath'], 'r') as file_handle:
         #    binary = file_handle.read()
         binary = ''
         with open(self._settings['dcubeTestEnvironment']['binaryPath'], 'r') as file_handle:
             for line in file_handle.readlines():
                 binary += line
-        with open(self._settings['dcubeTestEnvironment']['customPatchXmlPath'], 'r') as file_handle:
-            custom_patch_xml = file_handle.read()
+        custom_patch_xml = Utilities.load_custom_patch(self._settings['dcubeTestEnvironment']['customPatchXmlPath'])
         duration = self._settings['dcubeTestEnvironment']['initTime']
         duration += self._settings['dcubeTestEnvironment']['testTime']
         config_overrides = {
@@ -132,14 +133,22 @@ class DCubeTestEnvironment(AbstractTestEnvironment):
             'periodicity': self._settings['dcubeTestEnvironment']['periodicity'],
             'message_length': self._settings['dcubeTestEnvironment']['messageLength'],
             'jamming': self._settings['dcubeTestEnvironment']['jamming'],
-            'cpatch': False,  # Custom Patching On/Off Switch
+            'cpatch': True,  # Custom Patching On/Off Switch
             'file': b64encode(binary.encode('utf-8')).decode('ascii'),
-            'config_overrides': config_overrides
+            'config_overrides': config_overrides,
+            'xml': b64encode(custom_patch_xml.xml.encode('utf-8')).decode('ascii'),
+            'overrides': result
+
         }
+        # Ensure all values in 'overrides' are integers
+        if "overrides" in request_data:
+            request_data["overrides"] = {
+                k: int(v) for k, v in request_data["overrides"].items()
+            }
         while True:
             try:
-                url = API_URL + '/queue/create_job' + self.api_key
-                response = DCubeTestEnvironment.request(url, 'POST', request_data)
+                url_1 = API_URL + '/queue/create_job' + self.api_key
+                response = DCubeTestEnvironment.request(url_1, 'POST', request_data)
                 job_id = response['id']
                 # check jobListPath is available
                 if 'jobListPath' in self._settings['dcubeTestEnvironment']:
