@@ -212,6 +212,8 @@ class Main:
                 print(f'Main: Test result: {y_next_results}')  # Print the test results
                 x_next_list = y_next_results[self.anon_var_list].values.tolist() # Get the anonymous variable list values
                 self.result_storage.add_single_test(y_next_results, used=True) # Add the test results to the result storage
+                if not 'goal' in y_next_results:
+                    y_next_results['goal'] = Utilities.evaluate_goal_function(self.settings, y_next_results, testbed_results=y_next_results)
                 y_next = y_next_results['goal'] # Get the goal value from the test results as the target
                 self.X_values.append(x_next_list) # Append the next parameter to the X values
                 self.Y_values.append(y_next) # Append the goal value to the Y values
@@ -255,6 +257,7 @@ class Main:
                 else:   # Otherwise
                     best_goal_so_far = min(value[0] for value in result_dict_itr.values()) # Get the minimum value of the goal from the dictionary of results
                 current_best_parameter_set = self.best_params_itr[n_itr_t]
+                print(f'current best parameter set: {current_best_parameter_set}')
             if terminated_with_constraints_conf:
                 print(f'Main: Optimal parameter set: {current_best_parameter_set}')
                 print(f'Main: Confidence in satisfying constraints: {current_thresh_conf}')
