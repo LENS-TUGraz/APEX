@@ -10,4 +10,4 @@ This folder contains recorded traces and evaluation results for different protoc
 - **Evaluation_Results**: Includes the evaluation results related to the research paper for different application requirements (ARs). These are the evaluation results that were performed on the data that were taken from real-world recorded testbed experiments.
 
 
-- **Synthetic_Data**:
+- **Synthetic_Data**: Contains the script used to generate the synthetic dataset, the synthetic data itself, and the evaluation results related to this data. This synthetic dataset extends the RPL protocol to higher-dimensional parameter spaces and mimics real-world trends with controlled noise to enable scalable evaluation without exhaustive testbed runs.
