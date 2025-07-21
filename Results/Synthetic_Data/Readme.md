@@ -18,8 +18,7 @@ This folder contains the synthetic dataset, scripts, and evaluation results used
 - **Evaluation_Results**  
   Contains the evaluation results obtained by running APEX and baseline optimization methods on the synthetic dataset.  
   Inside, you will find:
-  - One folder per optimization method (e.g., EI, GP-LCB, GEL, GER, GUC, RL-Any, RL-Step, RL-GP, SVM).
-  - Inside each method folder, the results are reported for **Application Requirement AR_9**.
-  - Each AR_9 folder contains:
+  - One folder per NTS approach (e.g., EI, GP-LCB, GEL, GER, GUC, RL-Any, RL-Step, RL-GP, SVM).
+  - Inside each NTS approach folder, the results are reported for **Application Requirement AR_9**.
     - **AR_9_goal_value.json**: The goal values returned during the experiment, organized as a nested dictionary (outer key: iteration number, inner key: trial number).
     - **AR_9_parameter_set.json**: The parameter sets returned, organized similarly, where each parameter set is stored as a list following the order defined in the configuration.
