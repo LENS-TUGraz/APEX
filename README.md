@@ -7,6 +7,7 @@ APEX (Automated Parameter Exploration) is a framework designed for optimizing pr
 - **Results**:
   - Contains recorded results used for evaluation.
   - Includes a subfolder `Evaluation_Results` with protocol evaluation results for different ARs.
+  - Includes a subfolder `Synthetic_Data` with synthetic datasets and evaluations to assess APEX in high-dimensional optimization scenarios.
 - **config**:
   - Contains files for specifying user requirements, including application goals, parameter ranges, and termination criteria for optimization.
   - Example inputs include selecting the test environment, defining optimization targets, setting constraints, and configuring the next test point selection algorithm.
