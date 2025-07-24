@@ -17,7 +17,7 @@ Each protocol folder contains subfolders named after the NTS approaches used dur
 - **RL-Any**: Utilizes reinforcement learning to explore the parameter space, can move from one state to any other state.
 - **RL-Step**: A reinforcement learning approach focusing on stepwise exploration of the parameter space.
 - **RL-GP**: Combines reinforcement learning with Gaussian Processes, modeling transitions from each visited configuration to predict the next best move.
-- **SVR**: Uses Support Vector Regression to predict the performance of unseen configurations and selects the one with the lowest predicted goal value.
+- **SVM**: Uses Support Vector Regression to predict the performance of unseen configurations and selects the one with the lowest predicted goal value.
 
 ---
 
